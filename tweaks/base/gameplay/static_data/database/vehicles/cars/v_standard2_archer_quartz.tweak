@@ -15,6 +15,8 @@ v_standard2_archer_quartz : Vehicle_4w_Default
 	];
 	displayName = "LocKey#22078";
 	vehicleUIData = "Vehicle.VehicleArcherQuartzUIData";
+	twintoneModelName = "archer.quartz";
+	appearancesToColorTemplate = "Vehicle.VehicleArcherQuartzAppearancesToColorTemplate";
 	fk< UIIcon > icon = "UIIcon.archer_quartz__basic_player_01";
 	headlightColor = 
 	[
@@ -677,5 +679,973 @@ VehicleArcherQuartzUIData : VehicleDefaultUIData
 	horsepower = 162.0f;
 	mass = 1035.0f;
 	info = "LocKey#53548";
+}
+
+vcc_paintjob_archer_quartz__basic_mox_01 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_mox_01"
+	];
+	matchingColorVariant = 
+	[
+		"mox_01"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_mox_01";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "body_02", "body_03", "hood_a", "mirror_fl", "mirror_fr", "trunk_a", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_suburban_04.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"body_02", "body_03", "hood_a", "mirror_fl", "mirror_fr", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_urban_02.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_poor_1 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_poor_1", "archer_quartz__basic_poor_3_2"
+	];
+	matchingColorVariant = 
+	[
+		"poor_1", "poor_3_2"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_poor_1";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_poor_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_poor_2 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_poor_2"
+	];
+	matchingColorVariant = 
+	[
+		"poor_2"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_poor_2";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "body_02", "body_03", "door_fl_a", "hood_a", "mirror_fl", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_poor_04.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"body_02", "body_03"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_primer_black.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"hood_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_poor_03.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"door_fl_a", "mirror_fl"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_sticker_bomb_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_engine_poor_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_engine_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"junk_bumper_b", "junk_bumper_f"
+			];
+			customMlSetup = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset_03.mlsetup";
+			customMlMask = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"junk_engine"
+			];
+			customMlSetup = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset_02.mlsetup";
+			customMlMask = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_poor_2_1 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_poor_2_1"
+	];
+	matchingColorVariant = 
+	[
+		"poor_2_1"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_poor_2_1";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "body_02", "body_03", "door_fl_a", "door_fr_a", "hood_a", "mirror_fl", "mirror_fr", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_sticker_bomb_02.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"body_02", "hood_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_primer_gray.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"body_03"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_sticker_bomb_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"door_fl_a", "mirror_fl"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_primer_red.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"door_fr_a", "mirror_fr"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_poor_05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_engine_poor_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_engine_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset_01.mlsetup";
+			customMlMask = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_poor_2_2 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_poor_2_2"
+	];
+	matchingColorVariant = 
+	[
+		"poor_2_2"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_poor_2_2";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "body_02", "body_03", "door_fl_a", "door_fr_a", "hood_a", "mirror_fl", "mirror_fr", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_poor_03.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"body_02", "door_fr_a", "mirror_fr"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_primer_gray.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"body_03"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_sticker_bomb_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"door_fl_a", "hood_a", "mirror_fl"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_primer_black.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_engine_poor_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_engine_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset_01.mlsetup";
+			customMlMask = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_poor_2_3 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_poor_2_3"
+	];
+	matchingColorVariant = 
+	[
+		"poor_2_3"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_poor_2_3";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "body_02", "body_03", "door_fr_a", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_poor_02.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"body_02", "door_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_sticker_bomb_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"body_03"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_primer_red.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_engine_poor_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_engine_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"junk_bumper_b", "junk_bumper_f"
+			];
+			customMlSetup = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset_02.mlsetup";
+			customMlMask = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"junk_engine"
+			];
+			customMlSetup = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset_03.mlsetup";
+			customMlMask = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_poor_2_4 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_poor_2_4"
+	];
+	matchingColorVariant = 
+	[
+		"poor_2_4"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_poor_2_4";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "body_02", "body_03", "door_fr_a", "hood_a", "mirror_fl", "mirror_fr", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_primer_red.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"body_02", "body_03", "door_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_sticker_bomb_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"hood_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_poor_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"mirror_fl", "mirror_fr"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_primer_black.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_engine_poor_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_engine_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"junk_bumper_b", "junk_bumper_f"
+			];
+			customMlSetup = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset_01.mlsetup";
+			customMlMask = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"junk_engine"
+			];
+			customMlSetup = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset_03.mlsetup";
+			customMlMask = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_poor_3_3 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_poor_3_3"
+	];
+	matchingColorVariant = 
+	[
+		"poor_3_3"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_poor_3_3";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "body_02", "body_03", "door_fl_a", "mirror_fl", "mirror_fr", "trunk_a", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_primer_gray.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"body_02", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_sticker_bomb_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"body_03", "mirror_fl", "mirror_fr"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_primer_black.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"door_fl_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_poor_04.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"junk_bumper_b"
+			];
+			customMlSetup = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset_01.mlsetup";
+			customMlMask = "base\vehicles\common\parts\v_common__junk_kit\entities\meshes\textures\ml_junkset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_suburban_1 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_suburban_1"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_1"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_suburban_1";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_suburban_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_suburban_1_2 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_suburban_1_2"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_1_2"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_suburban_1_2";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_suburban_06.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_suburban_1_3 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_suburban_1_3"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_1_3"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_suburban_1_3";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_suburban_04.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_urban_1 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_urban_1"
+	];
+	matchingColorVariant = 
+	[
+		"urban_1"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_urban_1";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_suburban_03.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_urban_1_1 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_urban_1_1"
+	];
+	matchingColorVariant = 
+	[
+		"urban_1_1"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_urban_1_1";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_suburban_05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_urban_1_2 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_urban_1_2"
+	];
+	matchingColorVariant = 
+	[
+		"urban_1_2"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_urban_1_2";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_urban_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_urban_1_3 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_urban_1_3"
+	];
+	matchingColorVariant = 
+	[
+		"urban_1_3"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_urban_1_3";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_urban_02.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_urban_1_5 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_urban_1_5"
+	];
+	matchingColorVariant = 
+	[
+		"urban_1_5"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_urban_1_5";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_urban_03.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_quartz__basic_urban_1_6 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_quartz__basic_urban_1_6"
+	];
+	matchingColorVariant = 
+	[
+		"urban_1_6"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_quartz__basic_urban_1_6";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\quartz_urban_04.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_quartz\entities\meshes\textures\ml_v_standard2_archer_quartz_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_archer_bandit_bandit_02 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"archer_bandit_bandit_02"
+	];
+	matchingColorVariant = 
+	[
+		"bandit_02"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_archer_bandit_bandit_02";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_bl_03", "wheel_bl_05", "wheel_br_03", "wheel_br_05", "wheel_fl_03", "wheel_fl_05", "wheel_fr_03", "wheel_fr_05", "junk_bumper_b", "junk_bumper_f", "junk_engine"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_archer_bandit\meshes\textures\ml_v_standard2_archer_quartz_ext03.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_archer_bandit\meshes\textures\ml_v_standard2_archer_quartz_ext02_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+VehicleArcherQuartzAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
+{
+	colorTemplates = 
+	[
+		{
+			matchingAppearances = 
+			[
+				"archer_quartz__basic_poor_1_1"
+			];
+			matchingColorVariant = 
+			[
+				"poor_1_1"
+			];
+			mainColor = 
+			[
+				78, 107, 130
+			];
+			secondaryColor = 
+			[
+				64, 66, 65
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"archer_quartz__basic_poor_1_2"
+			];
+			matchingColorVariant = 
+			[
+				"poor_1_2"
+			];
+			mainColor = 
+			[
+				49, 47, 49
+			];
+			secondaryColor = 
+			[
+				65, 67, 65
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"archer_quartz__basic_poor_1_3"
+			];
+			matchingColorVariant = 
+			[
+				"poor_1_3"
+			];
+			mainColor = 
+			[
+				131, 126, 118
+			];
+			secondaryColor = 
+			[
+				53, 53, 53
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"archer_quartz__basic_poor_1_4"
+			];
+			matchingColorVariant = 
+			[
+				"poor_1_4"
+			];
+			mainColor = 
+			[
+				150, 125, 83
+			];
+			secondaryColor = 
+			[
+				65, 66, 65
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"archer_quartz__basic_poor_1_5"
+			];
+			matchingColorVariant = 
+			[
+				"poor_1_5"
+			];
+			mainColor = 
+			[
+				54, 39, 48
+			];
+			secondaryColor = 
+			[
+				51, 52, 53
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"archer_quartz__basic_poor_3"
+			];
+			matchingColorVariant = 
+			[
+				"poor_3"
+			];
+			mainColor = 
+			[
+				54, 39, 48
+			];
+			secondaryColor = 
+			[
+				51, 52, 53
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"archer_quartz__basic_poor_3_1"
+			];
+			matchingColorVariant = 
+			[
+				"poor_3_1"
+			];
+			mainColor = 
+			[
+				150, 125, 83
+			];
+			secondaryColor = 
+			[
+				65, 66, 65
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"archer_quartz__basic_poor_3_4"
+			];
+			matchingColorVariant = 
+			[
+				"poor_3_4"
+			];
+			mainColor = 
+			[
+				52, 49, 52
+			];
+			secondaryColor = 
+			[
+				133, 127, 120
+			];
+		} : VehicleColorTemplate, 
+		"Vehicle.vcc_paintjob_archer_quartz__basic_mox_01", "Vehicle.vcc_paintjob_archer_quartz__basic_poor_1", "Vehicle.vcc_paintjob_archer_quartz__basic_poor_2", "Vehicle.vcc_paintjob_archer_quartz__basic_poor_2_1", "Vehicle.vcc_paintjob_archer_quartz__basic_poor_2_2", "Vehicle.vcc_paintjob_archer_quartz__basic_poor_2_3", "Vehicle.vcc_paintjob_archer_quartz__basic_poor_2_4", "Vehicle.vcc_paintjob_archer_quartz__basic_poor_3_3", "Vehicle.vcc_paintjob_archer_quartz__basic_suburban_1", "Vehicle.vcc_paintjob_archer_quartz__basic_suburban_1_2", "Vehicle.vcc_paintjob_archer_quartz__basic_suburban_1_3", "Vehicle.vcc_paintjob_archer_quartz__basic_urban_1", "Vehicle.vcc_paintjob_archer_quartz__basic_urban_1_1", "Vehicle.vcc_paintjob_archer_quartz__basic_urban_1_2", "Vehicle.vcc_paintjob_archer_quartz__basic_urban_1_3", "Vehicle.vcc_paintjob_archer_quartz__basic_urban_1_5", "Vehicle.vcc_paintjob_archer_quartz__basic_urban_1_6", "Vehicle.vcc_paintjob_archer_bandit_bandit_02"
+	];
 }
 

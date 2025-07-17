@@ -279,6 +279,62 @@ vehicleDriverContext : abstractVehicleContext
 {
 	bool hasOnUpdate = true;
 	CName forceInputContext = "VehicleDrive";
+	string[] transitionTo = 
+	[
+		"allForcedContexts", "allUIContexts", "vehicleAutodriveContext", "vehicleDelamainTaxiContext", "gameplayContext"
+	];
+	string[] transitionCondition = 
+	[
+		"", "", "", "", "ExitCondition"
+	];
+}
+
+vehicleAutodriveContext : abstractVehicleContext
+{
+	CName forceInputContext = "VehicleAutodrive";
+	bool hasOnEnter = true;
+	bool hasOnExit = true;
+	bool hasOnUpdate = true;
+	string[] transitionTo = 
+	[
+		"allForcedContexts", "allUIContexts", "vehicleCinematicCameraContext", "vehicleDelamainTaxiContext", "gameplayContext"
+	];
+	string[] transitionCondition = 
+	[
+		"", "", "", "", "ExitCondition"
+	];
+}
+
+vehicleCinematicCameraContext : abstractVehicleContext
+{
+	CName forceInputContext = "VehicleCinematicCamera";
+	bool hasOnEnter = true;
+	bool hasOnExit = true;
+	bool hasOnUpdate = true;
+	string[] transitionTo = 
+	[
+		"allForcedContexts", "allUIContexts", "vehicleAutodriveContext", "vehicleDelamainTaxiContext", "gameplayContext"
+	];
+	string[] transitionCondition = 
+	[
+		"", "", "", "", "ExitCondition"
+	];
+}
+
+vehicleDelamainTaxiContext : abstractVehicleContext
+{
+	CName forceInputContext = "DelamainTaxi";
+	bool hasOnEnter = true;
+	bool hasOnExit = true;
+	bool hasOnUpdate = true;
+	string[] transitionTo = 
+	[
+		"allForcedContexts", "allUIContexts", "vehicleCinematicCameraContext", "gameplayContext"
+	];
+	string[] transitionCondition = 
+	[
+		"", "", "", "ExitCondition"
+	];
 }
 
 vehicleDriverMountedWeaponsContext : vehicleDriverContext
@@ -297,11 +353,11 @@ vehiclePassengerContext : abstractVehicleContext
 	CName forceInputContext = "VehiclePassenger";
 	string[] transitionTo = 
 	[
-		"vehiclePassengerRemoteControlDriverContext", "allForcedContexts", "allUIContexts", "gameplayContext"
+		"vehiclePassengerRemoteControlDriverContext", "allForcedContexts", "allUIContexts", "vehicleDelamainTaxiContext", "gameplayContext"
 	];
 	string[] transitionCondition = 
 	[
-		"", "", "", "ExitCondition"
+		"", "", "", "", "ExitCondition"
 	];
 }
 

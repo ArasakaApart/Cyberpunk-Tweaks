@@ -16,6 +16,8 @@ v_sportbike1_yaiba_kusanagi : Vehicle_2w_Default
 	manufacturer = "Vehicle.Yaiba";
 	displayName = "LocKey#1620";
 	vehicleUIData = "Vehicle.VehicleYaibaKusanagiUIData";
+	twintoneModelName = "yaiba.kusanagi";
+	appearancesToColorTemplate = "Vehicle.VehicleYaibaKusanagiAppearancesToColorTemplate";
 	fk< UIIcon > icon = "UIIcon.yaiba_kusanagi_basic_player_01";
 	string hijackDifficulty = "HARD";
 	enableDestruction = true;
@@ -143,6 +145,24 @@ v_sportbike1_yaiba_kusanagi : Vehicle_2w_Default
 			inputDampFactor = 0.065f;
 		} : BikeYawAirControlAxis;
 	} : VehicleAirControlBike;
+}
+
+v_sportbike1_yaiba_muramasa_player : v_sportbike1_yaiba_kusanagi
+{
+	savable = true;
+	displayName = "LocKey#96427";
+	vehicleUIData = "Vehicle.VehicleYaibaMuramasaUIData";
+	hasVisualCustomization = true;
+	hasUniqueCustomization = false;
+	customizationMenuType = "Partner";
+	customizationPreview = "Vehicle.PreviewYaibaMuramasa";
+	genericCustomizationMask = "base\gameplay\vehicles\visual_customization\car_masks\vcc_yaiba_kusanagi_basic_asm_r250_body1_generic_mask.xbm";
+	excludedComponentsGeneric = 
+	[
+		"v_sportbike1_yaiba_kusanagi__ext01_wheel_f_010871", "v_sportbike1_yaiba_kusanagi__ext01_wheel_r_010655", "v_sportbike1_yaiba_kusanagi__ext01_seat"
+	];
+	customizeCarRims = false;
+	customizeLights = true;
 }
 
 VehicleWheelDimensionsDefaultYaibaKusanagi : VehicleWheelDimensionsSetup
@@ -347,6 +367,31 @@ vm_001_motorcycle : v_sportbike1_yaiba_kusanagi
 {
 }
 
+VehicleYaibaKusanagiAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
+{
+	colorTemplates = 
+	[
+		{
+			matchingAppearances = 
+			[
+				"test"
+			];
+			matchingColorVariant = 
+			[
+				"test"
+			];
+			mainColor = 
+			[
+				0, 0, 0
+			];
+			secondaryColor = 
+			[
+				0, 0, 0
+			];
+		} : VehicleColorTemplate
+	];
+}
+
 VehicleYaibaKusanagiUIData : VehicleDefaultUIData
 {
 	productionYear = "2068-2077";
@@ -354,5 +399,14 @@ VehicleYaibaKusanagiUIData : VehicleDefaultUIData
 	horsepower = 183.0f;
 	mass = 372.0f;
 	info = "LocKey#53578";
+}
+
+VehicleYaibaMuramasaUIData : VehicleDefaultUIData
+{
+	productionYear = "2077";
+	driveLayout = "LocKey#45371";
+	horsepower = 187.0f;
+	mass = 376.0f;
+	info = "LocKey#96430";
 }
 

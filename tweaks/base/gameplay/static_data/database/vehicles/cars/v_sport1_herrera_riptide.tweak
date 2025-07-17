@@ -20,14 +20,6 @@ v_sport1_herrera_riptide : Vehicle_4w_Default
 	displayName = "LocKey#94003";
 	vehicleUIData = "Vehicle.VehicleHerreraRiptideUIData";
 	twintoneModelName = "herrera.riptide";
-	customizationMenuType = "Partner";
-	genericCustomizationMask = "ep1\gameplay\vehicles\visual_customization\car_masks\vcc_herreraoutlawriptide_color_mask.xbm";
-	excludedComponentsGeneric = 
-	[
-		"wheel_fl_a_02", "wheel_fl_b_01", "wheel_fr_a_02", "wheel_fr_b_01", "wheel_bl_a_01", "wheel_bl_a_02", "wheel_br_a_01", "wheel_br_a_02", "dekielek_fl_01", "dekielek_fr_01", "dekielek_bl_01", "dekielek_br_01"
-	];
-	customizeCarRims = false;
-	customizationPreview = "Vehicle.PreviewGeneric";
 	appearancesToColorTemplate = "Vehicle.VehicleHerreraRiptideAppearancesToColorTemplate";
 	destroyedAppearance = "herrera_riptide__basic_burnt_01";
 	fxWheelsDecalsFrontOverride = "Vehicle.FxWheels_Sport_M";

@@ -10,6 +10,7 @@ villefort_columbus_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_villefort_columbus_player_full";
 	availabilityFact = "villefort_columbus_available";
 	ownershipFact = "villefort_columbus_owned";
+	hasCustomization = true;
 }
 
 villefort_cortes_offer : VehicleOffer
@@ -21,6 +22,7 @@ villefort_cortes_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_villefort_cortes_player_full";
 	availabilityFact = "villefort_cortes_available";
 	ownershipFact = "villefort_cortes_owned";
+	hasCustomization = true;
 }
 
 villefort_alvarado_offer : VehicleOffer
@@ -44,6 +46,7 @@ thorton_colby_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_thorton_colby_player_full";
 	availabilityFact = "thorton_colby_available";
 	ownershipFact = "thorton_colby_owned";
+	hasCustomization = true;
 }
 
 thorton_colby_gt_offer : VehicleOffer
@@ -55,6 +58,7 @@ thorton_colby_gt_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_thorton_colby_gt_full";
 	availabilityFact = "thorton_colby_gt_available";
 	ownershipFact = "thorton_colby_gt_owned";
+	hasCustomization = true;
 }
 
 thorton_galena_offer : VehicleOffer
@@ -66,6 +70,7 @@ thorton_galena_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_thorton_galena_player_full";
 	availabilityFact = "thorton_galena_available";
 	ownershipFact = "thorton_galena_owned";
+	hasCustomization = true;
 }
 
 thorton_colby_pickup_offer : VehicleOffer
@@ -77,6 +82,7 @@ thorton_colby_pickup_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_thorton_colby_pickup_player_full";
 	availabilityFact = "thorton_colby_pickup_available";
 	ownershipFact = "thorton_colby_pickup_owned";
+	hasCustomization = true;
 }
 
 thorton_galena_nomad_offer : VehicleOffer
@@ -100,6 +106,7 @@ thorton_galena_gt_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_thorton_galena_gt_full";
 	availabilityFact = "thorton_galena_gt_available";
 	ownershipFact = "thorton_galena_gt_owned";
+	hasCustomization = true;
 }
 
 thorton_mackinaw_offer : VehicleOffer
@@ -111,6 +118,7 @@ thorton_mackinaw_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_thorton_mackinaw_player_full";
 	availabilityFact = "thorton_mackinaw_available";
 	ownershipFact = "thorton_mackinaw_owned";
+	hasCustomization = true;
 }
 
 thorton_colby_pickup_nomad_offer : VehicleOffer
@@ -243,6 +251,7 @@ mizutani_shion_targa_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_mizutani_shion_targa_player_full";
 	availabilityFact = "mizutani_shion_targa_available";
 	ownershipFact = "mizutani_shion_targa_owned";
+	hasCustomization = true;
 }
 
 mizutani_shion_base_offer : VehicleOffer
@@ -290,6 +299,7 @@ brennan_apollo_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_brennan_apollo_player_full";
 	availabilityFact = "brennan_apollo_available";
 	ownershipFact = "brennan_apollo_owned";
+	hasCustomization = true;
 }
 
 arch_nemesis_offer : VehicleOffer
@@ -301,6 +311,7 @@ arch_nemesis_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_arch_player_full";
 	availabilityFact = "arch_available";
 	ownershipFact = "arch_owned";
+	hasCustomization = true;
 }
 
 yaiba_kusanagi_offer : VehicleOffer
@@ -315,6 +326,19 @@ yaiba_kusanagi_offer : VehicleOffer
 	hasCustomization = true;
 }
 
+yaiba_muramasa_offer : VehicleOffer
+{
+	brandName = "Motorcycles";
+	name = "LocKey#97125";
+	description = "LocKey#96762";
+	price = "EconomicAssignment.v_sportbike1_yaiba_muramasa_player";
+	previewImage = "UIJournalIcons.vehicle_metaquest_yaiba_muramasa_player_full";
+	availabilityFact = "yaiba_muramasa_available";
+	ownershipFact = "yaiba_muramasa_owned";
+	unlockType = "Vehicle.Quest";
+	hasCustomization = true;
+}
+
 chevillon_thrax_offer : VehicleOffer
 {
 	brandName = "Chevillion";
@@ -324,6 +348,7 @@ chevillon_thrax_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_chevalier_thrax_player_full";
 	availabilityFact = "chevalier_thrax_available";
 	ownershipFact = "chevalier_thrax_owned";
+	hasCustomization = true;
 }
 
 chevallion_emperor_police_offer : VehicleOffer
@@ -335,6 +360,19 @@ chevallion_emperor_police_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_chevalier_emperor_player_full";
 	availabilityFact = "chevalier_emperor_available";
 	ownershipFact = "chevalier_emperor_owned";
+	hasCustomization = true;
+}
+
+chevillion_legatus_offer : VehicleOffer
+{
+	brandName = "Chevillion";
+	name = "LocKey#97123";
+	description = "LocKey#96693";
+	price = "EconomicAssignment.v_standard3_chevalier_legatus_player";
+	previewImage = "UIJournalIcons.vehicle_metaquest_chevalier_legatus_player_full";
+	availabilityFact = "chevalier_legatus_available";
+	ownershipFact = "chevalier_legatus_owned";
+	hasMachineGun = true;
 }
 
 archer_quartz_offer : VehicleOffer
@@ -346,6 +384,7 @@ archer_quartz_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_archer_quartz_player_full";
 	availabilityFact = "archer_quartz_available";
 	ownershipFact = "archer_quartz_owned";
+	hasCustomization = true;
 }
 
 archer_quartz_base_offer : VehicleOffer
@@ -357,6 +396,7 @@ archer_quartz_base_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_archer_quartz_base_player_full";
 	availabilityFact = "archer_quartz_base_available";
 	ownershipFact = "archer_quartz_base_owned";
+	hasCustomization = true;
 }
 
 archer_quartz_bandit_offer : VehicleOffer
@@ -369,6 +409,7 @@ archer_quartz_bandit_offer : VehicleOffer
 	availabilityFact = "archer_bandit_available";
 	ownershipFact = "archer_bandit_owned";
 	unlockType = "Vehicle.Quest";
+	hasCustomization = true;
 }
 
 makigai_maimai_offer : VehicleOffer
@@ -380,6 +421,7 @@ makigai_maimai_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_makigai_maimai_player_full";
 	availabilityFact = "makigai_maimai_available";
 	ownershipFact = "makigai_maimai_owned";
+	hasCustomization = true;
 }
 
 mahir_supron_offer : VehicleOffer
@@ -391,6 +433,7 @@ mahir_supron_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_mahir_supron_player_full";
 	availabilityFact = "mahir_supron_available";
 	ownershipFact = "mahir_supron_owned";
+	hasCustomization = true;
 }
 
 mahir_supron_gt_offer : VehicleOffer
@@ -402,6 +445,7 @@ mahir_supron_gt_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_mahir_supron_gt_player_full";
 	availabilityFact = "mahir_supron_gt_available";
 	ownershipFact = "mahir_supron_gt_owned";
+	hasCustomization = true;
 }
 
 herrera_outlaw_offer : VehicleOffer
@@ -449,6 +493,7 @@ brennan_apollo_02_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_brennan_apollo_player_02_full";
 	availabilityFact = "brennan_apollo_02_available";
 	ownershipFact = "brennan_apollo_02_owned";
+	hasCustomization = true;
 }
 
 yaiba_kusanagi_02_offer : VehicleOffer
@@ -460,6 +505,7 @@ yaiba_kusanagi_02_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_yaiba_player_02_full";
 	availabilityFact = "yaiba_kusanagi_02_available";
 	ownershipFact = "yaiba_kusanagi_02_owned";
+	hasCustomization = true;
 }
 
 yaiba_kusanagi_03_offer : VehicleOffer
@@ -471,6 +517,7 @@ yaiba_kusanagi_03_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_yaiba_player_03_full";
 	availabilityFact = "yaiba_kusanagi_03_available";
 	ownershipFact = "yaiba_kusanagi_03_owned";
+	hasCustomization = true;
 }
 
 arch_nemesis_02_offer : VehicleOffer
@@ -482,6 +529,7 @@ arch_nemesis_02_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_arch_player_02_full";
 	availabilityFact = "arch_02_available";
 	ownershipFact = "arch_02_owned";
+	hasCustomization = true;
 }
 
 arch_nemesis_03_offer : VehicleOffer
@@ -493,5 +541,6 @@ arch_nemesis_03_offer : VehicleOffer
 	previewImage = "UIJournalIcons.vehicle_metaquest_arch_player_03_full";
 	availabilityFact = "arch_03_available";
 	ownershipFact = "arch_03_owned";
+	hasCustomization = true;
 }
 

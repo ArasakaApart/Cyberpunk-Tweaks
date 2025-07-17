@@ -20,14 +20,6 @@ v_sport2_mizutani_shion : Vehicle_4w_Default
 	displayName = "LocKey#78765";
 	vehicleUIData = "Vehicle.VehicleMizutaniShionUIData";
 	twintoneModelName = "mizutani.shion";
-	customizationMenuType = "Partner";
-	genericCustomizationMask = "base\gameplay\vehicles\visual_customization\car_masks\vcc_mizutani_shion_basic_color_mask.xbm";
-	excludedComponentsGeneric = 
-	[
-		"wheel_01_fl_a", "wheel_01_fr_a", "wheel_01_bl_a", "wheel_01_br_a", "wheel_custom_fl_01", "wheel_custom_fr_01", "wheel_custom_bl_01", "wheel_custom_br_01"
-	];
-	customizeCarRims = false;
-	customizationPreview = "Vehicle.PreviewGeneric";
 	appearancesToColorTemplate = "Vehicle.VehicleMizutaniShionAppearancesToColorTemplate";
 	fk< UIIcon > icon = "UIIcon.mizutani_shion__basic_player_01";
 	headlightColor = 

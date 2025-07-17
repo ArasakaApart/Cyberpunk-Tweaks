@@ -150,6 +150,26 @@ PanzerVehicleMountFrontRight : VehicleMount
 	];
 }
 
+DelamainMountBackLeft : VehicleMount
+{
+	interactionLayer = "seat_back_left";
+	fk< InteractionBase > objectActionUI = "Interactions.delamain_seat_back_left";
+	targetPrereqs += 
+	[
+		"VehicleActions.IsNpcNotPlayingMountingAnimationFrontLeft", "VehicleActions.IsNpcNotMountedInSlotBackLeft", "VehicleActions.IsVehicleDoorNotLockedBackLeft", "VehicleActions.IsVehicleDoorNotQuestLockedBackLeft", "VehicleActions.IsNotMountedByPreventionNPC"
+	];
+}
+
+DelamainMountBackRight : VehicleMount
+{
+	interactionLayer = "seat_back_right";
+	fk< InteractionBase > objectActionUI = "Interactions.delamain_seat_back_right";
+	targetPrereqs += 
+	[
+		"VehicleActions.IsNpcNotPlayingMountingAnimationBackRight", "VehicleActions.IsNpcNotMountedInSlotBackRight", "VehicleActions.IsVehicleDoorNotLockedBackRight", "VehicleActions.IsVehicleDoorNotQuestLockedBackRight", "VehicleActions.IsNotMountedByPreventionNPC"
+	];
+}
+
 VehicleHijack : ActionDemolition
 {
 	fk< ObjectActionType > objectActionType = "ObjectActionType.Direct";

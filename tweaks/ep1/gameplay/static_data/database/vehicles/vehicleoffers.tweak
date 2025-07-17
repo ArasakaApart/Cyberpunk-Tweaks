@@ -11,6 +11,7 @@ thorton_merrimac_offer : VehicleOffer
 	availabilityFact = "thorton_merrimac_available";
 	ownershipFact = "thorton_merrimac_owned";
 	unlockType = "Vehicle.CourierMissions";
+	hasCustomization = true;
 }
 
 mizutani_hozuki_offer : VehicleOffer
@@ -23,6 +24,7 @@ mizutani_hozuki_offer : VehicleOffer
 	availabilityFact = "mizutani_hozuki_available";
 	ownershipFact = "mizutani_hozuki_owned";
 	unlockType = "Vehicle.CourierMissions";
+	hasCustomization = true;
 }
 
 mizutani_hozuki_gt_offer : VehicleOffer
@@ -35,6 +37,7 @@ mizutani_hozuki_gt_offer : VehicleOffer
 	availabilityFact = "mizutani_hozuki_gt_available";
 	ownershipFact = "mizutani_hozuki_gt_owned";
 	unlockType = "Vehicle.StreetCred";
+	hasCustomization = true;
 }
 
 villefort_deleon_offer : VehicleOffer
@@ -128,6 +131,7 @@ makigai_tanishi_offer : VehicleOffer
 	availabilityFact = "makigai_tanishi_available";
 	ownershipFact = "makigai_tanishi_owned";
 	unlockType = "Vehicle.CourierMissions";
+	hasCustomization = true;
 }
 
 alvarado_hearse_combi_offer : VehicleOffer
@@ -154,6 +158,7 @@ kurtz_men_military_supron_offer : VehicleOffer
 	ownershipFact = "mahir_supron_kurtz_owned";
 	hasMachineGun = true;
 	hasRocketLauncher = true;
+	hasCustomization = true;
 	unlockType = "Vehicle.CourierMissions";
 }
 

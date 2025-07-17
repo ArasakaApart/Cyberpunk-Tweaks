@@ -2311,3 +2311,27 @@ apartment_purchase_westbrook : JournalIcon
 	atlasPartName = "apr_westbrook";
 }
 
+v_sport1_yaiba_semimaru_player : JournalIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\codex\codex_car_visual_assets_preview_01.inkatlas";
+	atlasPartName = "v_sport1_yaiba_semimaru_player_full";
+}
+
+v_sport1_yaiba_muramasa_player : JournalIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\codex\codex_car_visual_assets_preview_01.inkatlas";
+	atlasPartName = "v_sportbike1_yaiba_muramasa_player_full";
+}
+
+v_sport1_caliburn_mordred_player : JournalIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\codex\codex_car_visual_assets_preview_01.inkatlas";
+	atlasPartName = "v_sport1_caliburn_mordred_player_full";
+}
+
+v_standard3_chevalier_legatus_aquila_player : JournalIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\codex\codex_car_visual_assets_preview_01.inkatlas";
+	atlasPartName = "v_standard3_chevalier_legatus_aquila_player_full";
+}
+

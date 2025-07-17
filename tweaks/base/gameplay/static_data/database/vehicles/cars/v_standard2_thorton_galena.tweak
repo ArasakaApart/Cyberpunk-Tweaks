@@ -1154,6 +1154,123 @@ VehicleDestructionParamsGalena : VehicleDestructionParamsDefault_4w
 	];
 }
 
+VehicleGalenaUIData : VehicleDefaultUIData
+{
+	productionYear = "2031-2055";
+	driveLayout = "LocKey#45370";
+	horsepower = 86.0f;
+	mass = 1023.0f;
+	info = "LocKey#53558";
+}
+
+vcc_paintjob_thorton_galena__basic_deathrace_galena_02 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_galena__basic_deathrace_galena_02"
+	];
+	matchingColorVariant = 
+	[
+		"deathrace_galena_02"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_galena__basic_deathrace_galena_02";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_a", "wheel_02_br"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_thorton_galena_nomad\entities\meshes\textures\player_galena_nomad_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\textures\galena_gt_ext.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 2.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_galena__basic_gt_01 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_galena__basic_gt_01"
+	];
+	matchingColorVariant = 
+	[
+		"gt_01"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_galena__basic_gt_01";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_a", "wheel_02_br"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\textures\galena_urban_ext01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\textures\galena_poor_ext.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_galena__basic_suburban_05 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_galena__basic_suburban_05"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_05"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_galena__basic_suburban_05";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_a", "wheel_02_br"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\textures\galena_suburban_ext05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\textures\galena_poor_ext.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_galena__basic_suburban_06 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_galena__basic_suburban_06"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_06"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_galena__basic_suburban_06";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_a", "wheel_02_br"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\textures\galena_suburban_ext06.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_thorton_galena\entities\meshes\textures\galena_poor_ext.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
 VehicleThortonGalenaBasicAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
 {
 	colorTemplates = 
@@ -1517,16 +1634,8 @@ VehicleThortonGalenaBasicAppearancesToColorTemplate : VehicleAppearancesToColorT
 			[
 				85, 85, 92
 			];
-		} : VehicleColorTemplate
+		} : VehicleColorTemplate, 
+		"Vehicle.vcc_paintjob_thorton_galena__basic_deathrace_galena_02", "Vehicle.vcc_paintjob_thorton_galena__basic_gt_01", "Vehicle.vcc_paintjob_thorton_galena__basic_suburban_05", "Vehicle.vcc_paintjob_thorton_galena__basic_suburban_06"
 	];
-}
-
-VehicleGalenaUIData : VehicleDefaultUIData
-{
-	productionYear = "2031-2055";
-	driveLayout = "LocKey#45370";
-	horsepower = 86.0f;
-	mass = 1023.0f;
-	info = "LocKey#53558";
 }
 

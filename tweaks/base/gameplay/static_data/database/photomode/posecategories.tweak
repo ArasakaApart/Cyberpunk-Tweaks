@@ -13,3 +13,9 @@ actionCategory : PhotoModePoseCategory
 	displayName = "UI-PhotoMode-OptionCategoryAction";
 }
 
+naturalCategory : PhotoModePoseCategory
+{
+	categoryName = "PhotoModePoseCategories.naturalCategory";
+	displayName = "UI-PhotoMode-MenuItemPoseNatural";
+}
+

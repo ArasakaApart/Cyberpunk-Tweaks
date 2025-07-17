@@ -38,6 +38,12 @@ v_utility4_chevalier_centurion : Vehicle_4w_Default
 	traffic_audio_resource = "v_car_chevalier_centurion_traffic";
 	vehDataPackage = 
 	{
+		entering = 1.9f;
+		exiting = 1.9f;
+		animVars = 
+		[
+			"sport2_vehicle_seat_front_left", "sport2_vehicle_seat_front_right"
+		];
 	} : Vehicle.VehicleDataPackageUtility4;
 	vehWheelDimensionsSetup = 
 	{
@@ -98,7 +104,7 @@ v_utility4_chevalier_centurion : Vehicle_4w_Default
 	vehDriver_FPPCameraParams = 
 	{
 		enable_rear_view = true;
-		rear_view_offset = ( 0.0000, -0.1045, 2.0184 );
+		rear_view_offset = ( 0.0000, -1.1045, 2.0184 );
 	} : VehicleDriverFPPCameraParamsDefault;
 	vehDriverCombat_FPPCameraParams = 
 	{
@@ -112,6 +118,10 @@ v_utility4_chevalier_centurion : Vehicle_4w_Default
 	} : VehicleDriverCombatFPPCameraParamsDefault;
 	crowdMemberSettings = "Crowds.Truck_DrivingPackage";
 	trafficSuspension = "Vehicle.TrafficSuspension_Utility";
+	weapons = 
+	[
+		"Vehicle.Vehicle_Power_Weapon_Left_A", "Vehicle.Vehicle_Power_Weapon_Right_A"
+	];
 }
 
 v_utility4_chevalier_centurion_flatbed : v_utility4_chevalier_centurion
@@ -205,6 +215,66 @@ v_utility4_chevalier_centurion_flatbed_poor_dogtown : v_utility4_chevalier_centu
 	];
 }
 
+[ EP1 ]
+v_utility4_chevalier_legatus_basic : v_utility4_chevalier_centurion
+{
+	entityTemplatePath = "base\vehicles\utility\v_utility4_chevalier_legatus_basic_01.ent";
+	appearanceName = "chevalier_legatus_basic_legatus_01";
+	destroyedAppearance = "chevalier_legatus_basic_burnt_01";
+	vehDataPackage = 
+	{
+		entering = 1.9f;
+		exiting = 1.9f;
+		animVars = 
+		[
+			"sport2_vehicle_seat_front_left", "sport2_vehicle_seat_front_right"
+		];
+	} : Vehicle.VehicleDataPackageUtility4;
+}
+
+v_utility4_chevalier_legatus_aquila_basic : v_utility4_chevalier_centurion
+{
+	entityTemplatePath = "base\vehicles\utility\v_utility4_chevalier_legatus_basic_01.ent";
+	appearanceName = "chevalier_legatus_basic_legatus_aquila_01";
+	destroyedAppearance = "chevalier_legatus_basic_burnt_aquila_01";
+	vehicleUIData = "Vehicle.VehicleChevalierLegatusUIData";
+	fk< UIIcon > icon = "UIIcon.chevalier_legatus_aquila";
+	displayName = "LocKey#96429";
+	vehDataPackage = 
+	{
+		driverCombat = "DriverCombatTypes.MountedWeapons";
+		entering = 1.9f;
+		exiting = 1.9f;
+		animVars = 
+		[
+			"sport2_vehicle_seat_front_left", "sport2_vehicle_seat_front_right"
+		];
+	} : Vehicle.VehicleDataPackageUtility4;
+	vehWheelDimensionsSetup = 
+	{
+		frontPreset = 
+		{
+			tireRadius = 0.58f;
+			rimRadius = 0.38f;
+			tireWidth = 0.36f;
+			wheelOffset = 0.30f;
+		} : VehicleWheelDimensionsPreset;
+		backPreset = 
+		{
+			tireRadius = 0.58f;
+			rimRadius = 0.39f;
+			tireWidth = 0.59f;
+			wheelOffset = 0.23f;
+		} : VehicleWheelDimensionsPreset;
+	} : VehicleWheelDimensionsSetup;
+	vehDriverCombat_FPPCameraParams = 
+	{
+		float lookat_offset_vertical = 0.065f;
+		float is_forward_offset = 1.0f;
+		float forward_offset_value = 0.0f;
+	} : VehicleDriverFPPCameraParamsDefault;
+}
+
 VehicleDestructionParamsCenturion : VehicleDestructionParamsDefault_4w
 {
 	gridDimensions = ( 2.3f, 7.0f, 0.9f );
@@ -241,7 +311,7 @@ VehicleDestructionParamsCenturion : VehicleDestructionParamsDefault_4w
 			threshold = 0.1;
 		}, 
 		{
-			component = "window_bl_01";
+			component = "window_bl";
 			effect = "damage_glass_bl_01";
 			gridCells = 
 			[
@@ -271,12 +341,24 @@ VehicleDestructionParamsCenturion : VehicleDestructionParamsDefault_4w
 	detachableParts = 
 	[
 		{
+			name = "Hood";
+			gridCells = 
+			[
+				6, 7, 14, 15
+			];
+			threshold = 0.8;
+			components = 
+			[
+				"hood_a", "hood_a_shadow", "hood_graffiti"
+			];
+		}, 
+		{
 			name = "MirrorLeft";
 			gridCells = 
 			[
 				4
 			];
-			threshold = 0.07;
+			threshold = 0.09;
 			components = 
 			[
 				"mirror_l", "mirror_l_shadow"
@@ -288,7 +370,7 @@ VehicleDestructionParamsCenturion : VehicleDestructionParamsDefault_4w
 			[
 				5
 			];
-			threshold = 0.07;
+			threshold = 0.09;
 			components = 
 			[
 				"mirror_fr", "mirror_fr_shadow"
@@ -303,7 +385,7 @@ VehicleDestructionParamsCenturion : VehicleDestructionParamsDefault_4w
 			threshold = 0.8;
 			components = 
 			[
-				"bumper_f_01", "bumper_f_shadow"
+				"bumper_f_01", "bumper_f_shadow", "license_plate_front", "bumper_f_graffiti"
 			];
 		}, 
 		{
@@ -315,7 +397,7 @@ VehicleDestructionParamsCenturion : VehicleDestructionParamsDefault_4w
 			threshold = 0.8;
 			components = 
 			[
-				"bumper_b_01", "bumper_b_shadow"
+				"bumper_b_01", "bumper_b_shadow", "license_plate_back"
 			];
 		}, 
 		{
@@ -327,7 +409,7 @@ VehicleDestructionParamsCenturion : VehicleDestructionParamsDefault_4w
 			threshold = 0.7;
 			components = 
 			[
-				"door_fl_a", "door_fl_shadow", "window_fl"
+				"door_fl_a", "door_fl_shadow", "window_fl", "door_fl_graffiti"
 			];
 		}, 
 		{
@@ -339,7 +421,7 @@ VehicleDestructionParamsCenturion : VehicleDestructionParamsDefault_4w
 			threshold = 0.7;
 			components = 
 			[
-				"door_fr_a", "door_fr_shadow", "window_fr"
+				"door_fr_a", "door_fr_shadow", "window_fr", "door_fr_graffiti"
 			];
 		}, 
 		{
@@ -351,7 +433,7 @@ VehicleDestructionParamsCenturion : VehicleDestructionParamsDefault_4w
 			threshold = 0.7;
 			components = 
 			[
-				"door_bl_a", "door_bl_shadow", "door_bl_b", "window_bl"
+				"door_bl_a", "door_bl_shadow", "door_bl_b", "window_bl", "door_bl_graffiti"
 			];
 		}, 
 		{
@@ -363,7 +445,19 @@ VehicleDestructionParamsCenturion : VehicleDestructionParamsDefault_4w
 			threshold = 0.7;
 			components = 
 			[
-				"door_br_a", "door_br_shadow", "door_br_b", "window_br"
+				"door_br_a", "door_br_shadow", "door_br_b", "window_br", "door_br_graffiti"
+			];
+		}, 
+		{
+			name = "Trunk";
+			gridCells = 
+			[
+				0, 1
+			];
+			threshold = 0.65;
+			components = 
+			[
+				"trunk_01", "trunk_01_shadow"
 			];
 		}
 	];
@@ -437,6 +531,14 @@ VehicleDestructionParamsCenturion : VehicleDestructionParamsDefault_4w
 			threshold = 0.1f;
 		}, 
 		{
+			component = "bumper_light_01";
+			gridCells = 
+			[
+				6
+			];
+			threshold = 0.1f;
+		}, 
+		{
 			component = "position_light_left_02";
 			gridCells = 
 			[
@@ -477,7 +579,23 @@ VehicleDestructionParamsCenturion : VehicleDestructionParamsDefault_4w
 			threshold = 0.1f;
 		}, 
 		{
+			component = "position_light_right_02";
+			gridCells = 
+			[
+				7
+			];
+			threshold = 0.1f;
+		}, 
+		{
 			component = "position_light_left_01";
+			gridCells = 
+			[
+				6
+			];
+			threshold = 0.1f;
+		}, 
+		{
+			component = "position_light_left_02";
 			gridCells = 
 			[
 				6
@@ -485,6 +603,24 @@ VehicleDestructionParamsCenturion : VehicleDestructionParamsDefault_4w
 			threshold = 0.1f;
 		}
 	];
+}
+
+VehicleChevalierCenturionUIData : VehicleDefaultUIData
+{
+	productionYear = "2020-2057";
+	driveLayout = "LocKey#45372";
+	horsepower = 1000.0f;
+	mass = 7000.0f;
+	info = "LocKey#94012";
+}
+
+VehicleChevalierLegatusUIData : VehicleDefaultUIData
+{
+	productionYear = "2072-2076";
+	driveLayout = "LocKey#45372";
+	horsepower = 1000.0f;
+	mass = 7100.0f;
+	info = "LocKey#96432";
 }
 
 VehicleChevalierCenturionAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
@@ -960,14 +1096,5 @@ VehicleChevalierCenturionAppearancesToColorTemplate : VehicleAppearancesToColorT
 			];
 		} : VehicleColorTemplate
 	];
-}
-
-VehicleChevalierCenturionUIData : VehicleDefaultUIData
-{
-	productionYear = "2020-2057";
-	driveLayout = "LocKey#45372";
-	horsepower = 1000.0f;
-	mass = 7000.0f;
-	info = "LocKey#94012";
 }
 

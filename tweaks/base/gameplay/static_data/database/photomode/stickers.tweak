@@ -2281,3 +2281,611 @@ justice_for_rebecca : PhotoModeSticker
 	locked = false;
 }
 
+hereliesjohnny : PhotoModeSticker
+{
+	displayName = "Here lies Johnny";
+	imagePartName = "hereliesjohnny";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+ijustwant : PhotoModeSticker
+{
+	displayName = "I just want";
+	imagePartName = "ijustwant";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+goodbyev : PhotoModeSticker
+{
+	displayName = "Good bye V";
+	imagePartName = "goodbyev";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+haventtforgotten : PhotoModeSticker
+{
+	displayName = "Havent forgotten";
+	imagePartName = "haventtforgotten";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+meanwhile : PhotoModeSticker
+{
+	displayName = "Mean while";
+	imagePartName = "meanwhile";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+buckleup : PhotoModeSticker
+{
+	displayName = "Buckle up";
+	imagePartName = "buckleup";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+wakeupsamurai : PhotoModeSticker
+{
+	displayName = "Wake up Samurai";
+	imagePartName = "wakeupsamurai";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+fuck : PhotoModeSticker
+{
+	displayName = "Fuck";
+	imagePartName = "fuck";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+theend : PhotoModeSticker
+{
+	displayName = "The end";
+	imagePartName = "theend";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+wevegot : PhotoModeSticker
+{
+	displayName = "Weve got";
+	imagePartName = "wevegot";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+youlook : PhotoModeSticker
+{
+	displayName = "You look";
+	imagePartName = "youlook";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+itstime : PhotoModeSticker
+{
+	displayName = "Its time";
+	imagePartName = "itstime";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+seeyou : PhotoModeSticker
+{
+	displayName = "See you";
+	imagePartName = "seeyou";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+shit : PhotoModeSticker
+{
+	displayName = "Shit";
+	imagePartName = "shit";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+letsmobilize : PhotoModeSticker
+{
+	displayName = "Lets mobilize";
+	imagePartName = "letsmobilize";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+youarestarting : PhotoModeSticker
+{
+	displayName = "You are starting";
+	imagePartName = "youarestarting";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+welcometonightcity : PhotoModeSticker
+{
+	displayName = "Welcome to Nightcity";
+	imagePartName = "welcometonightcity";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+and : PhotoModeSticker
+{
+	displayName = "And";
+	imagePartName = "and";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+andb : PhotoModeSticker
+{
+	displayName = "And black";
+	imagePartName = "andb";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+plus : PhotoModeSticker
+{
+	displayName = "Plus";
+	imagePartName = "plus";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+plusb : PhotoModeSticker
+{
+	displayName = "Plus black";
+	imagePartName = "plusb";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+dot : PhotoModeSticker
+{
+	displayName = "Dot";
+	imagePartName = "dot";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+dotb : PhotoModeSticker
+{
+	displayName = "Dot black";
+	imagePartName = "dotb";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+dash : PhotoModeSticker
+{
+	displayName = "Dash";
+	imagePartName = "dash";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+dashb : PhotoModeSticker
+{
+	displayName = "Dash black";
+	imagePartName = "dashb";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+underscore : PhotoModeSticker
+{
+	displayName = "Underscore";
+	imagePartName = "underscore";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+underscoreb : PhotoModeSticker
+{
+	displayName = "Underscore black";
+	imagePartName = "underscoreb";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_10 : PhotoModeSticker
+{
+	displayName = "10";
+	imagePartName = "texts_01_10";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_9 : PhotoModeSticker
+{
+	displayName = "Number 9";
+	imagePartName = "texts_01_9";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_8 : PhotoModeSticker
+{
+	displayName = "Number 8";
+	imagePartName = "texts_01_8";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_7 : PhotoModeSticker
+{
+	displayName = "7";
+	imagePartName = "texts_01_7";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_6 : PhotoModeSticker
+{
+	displayName = "6";
+	imagePartName = "texts_01_6";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_5 : PhotoModeSticker
+{
+	displayName = "5";
+	imagePartName = "texts_01_5";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_4 : PhotoModeSticker
+{
+	displayName = "4";
+	imagePartName = "texts_01_4";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_3 : PhotoModeSticker
+{
+	displayName = "3";
+	imagePartName = "texts_01_3";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_2 : PhotoModeSticker
+{
+	displayName = "2";
+	imagePartName = "texts_01_2";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_1 : PhotoModeSticker
+{
+	displayName = "1";
+	imagePartName = "texts_01_1";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_0 : PhotoModeSticker
+{
+	displayName = "0";
+	imagePartName = "texts_01_0";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_10b : PhotoModeSticker
+{
+	displayName = "10 black";
+	imagePartName = "texts_01_10b";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_9b : PhotoModeSticker
+{
+	displayName = "9 black";
+	imagePartName = "texts_01_9b";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_8b : PhotoModeSticker
+{
+	displayName = "8 black";
+	imagePartName = "texts_01_8b";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_7b : PhotoModeSticker
+{
+	displayName = "7 black";
+	imagePartName = "texts_01_7b";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_6b : PhotoModeSticker
+{
+	displayName = "6 black";
+	imagePartName = "texts_01_6b";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_5b : PhotoModeSticker
+{
+	displayName = "5 black";
+	imagePartName = "texts_01_5b";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_4b : PhotoModeSticker
+{
+	displayName = "4 black";
+	imagePartName = "texts_01_4b";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_3b : PhotoModeSticker
+{
+	displayName = "3 black";
+	imagePartName = "texts_01_3b";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_2b : PhotoModeSticker
+{
+	displayName = "2 black";
+	imagePartName = "texts_01_2b";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_1b : PhotoModeSticker
+{
+	displayName = "1  black";
+	imagePartName = "texts_01_1b";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+texts_01_0b : PhotoModeSticker
+{
+	displayName = "0 black";
+	imagePartName = "texts_01_0b";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+antislashy : PhotoModeSticker
+{
+	displayName = "Antislash yellow";
+	imagePartName = "antislashy";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+slashy : PhotoModeSticker
+{
+	displayName = "Slash yellow";
+	imagePartName = "slashy";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+slashb : PhotoModeSticker
+{
+	displayName = "Slash black";
+	imagePartName = "slashb";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+antislashb : PhotoModeSticker
+{
+	displayName = "Antislash black";
+	imagePartName = "antislashb";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_bubble_texts_01.inkatlas";
+	locked = false;
+}
+
+gunshaft : PhotoModeSticker
+{
+	displayName = "Gun shaft";
+	imagePartName = "gunshaft";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_fxx_01.inkatlas";
+	locked = false;
+}
+
+smoke : PhotoModeSticker
+{
+	displayName = "Smoke";
+	imagePartName = "smoke";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_fxx_01.inkatlas";
+	locked = false;
+}
+
+vraomy : PhotoModeSticker
+{
+	displayName = "Vraoooom yellow";
+	imagePartName = "vraomy";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_fxx_01.inkatlas";
+	locked = false;
+}
+
+vraomb : PhotoModeSticker
+{
+	displayName = "Vraoooom black";
+	imagePartName = "vraomb";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_fxx_01.inkatlas";
+	locked = false;
+}
+
+spike : PhotoModeSticker
+{
+	displayName = "Spike";
+	imagePartName = "spike";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_fxx_02.inkatlas";
+	locked = false;
+}
+
+smash : PhotoModeSticker
+{
+	displayName = "Smash";
+	imagePartName = "smash";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_fxx_02.inkatlas";
+	locked = false;
+}
+
+crash : PhotoModeSticker
+{
+	displayName = "Crash";
+	imagePartName = "crash";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_fxx_02.inkatlas";
+	locked = false;
+}
+
+jpboom : PhotoModeSticker
+{
+	displayName = "Japan boom";
+	imagePartName = "jpboom";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_fxx_02.inkatlas";
+	locked = false;
+}
+
+outch : PhotoModeSticker
+{
+	displayName = "Outch";
+	imagePartName = "outch";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_fxx_02.inkatlas";
+	locked = false;
+}
+
+htshadow : PhotoModeSticker
+{
+	displayName = "Shadow comics";
+	imagePartName = "htshadow";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_fxx_03.inkatlas";
+	locked = false;
+}
+
+boomw : PhotoModeSticker
+{
+	displayName = "Boom";
+	imagePartName = "boomw";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_fxx_03.inkatlas";
+	locked = false;
+}
+
+halftonedot : PhotoModeSticker
+{
+	displayName = "Half tone dot";
+	imagePartName = "halftonedot";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_fxx_03.inkatlas";
+	locked = false;
+}
+
+boomy : PhotoModeSticker
+{
+	displayName = "Boom yellow";
+	imagePartName = "boomy";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_fxx_03.inkatlas";
+	locked = false;
+}
+
+bigdreamer : PhotoModeSticker
+{
+	displayName = "Big dreamer";
+	imagePartName = "bigdreamer";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_graffiti_01.inkatlas";
+	locked = false;
+}
+
+imattered : PhotoModeSticker
+{
+	displayName = "I mattered";
+	imagePartName = "imattered";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_graffiti_01.inkatlas";
+	locked = false;
+}
+
+iwashere : PhotoModeSticker
+{
+	displayName = "I was here";
+	imagePartName = "iwashere";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_graffiti_01.inkatlas";
+	locked = false;
+}
+
+cityofdreams : PhotoModeSticker
+{
+	displayName = "City of dreams";
+	imagePartName = "cityofdreams";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_graffiti_01.inkatlas";
+	locked = false;
+}
+
+flatlinedcomics : PhotoModeSticker
+{
+	displayName = "Flatlined comics";
+	imagePartName = "flatlinedcomics";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_graffiti_01.inkatlas";
+	locked = false;
+}
+
+flatlinedui : PhotoModeSticker
+{
+	displayName = "Flatlined";
+	imagePartName = "flatlinedui";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_graffiti_01.inkatlas";
+	locked = false;
+}
+
+hyperspeed : PhotoModeSticker
+{
+	displayName = "Hyperspeed";
+	imagePartName = "hyperspeed";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_graffiti_02.inkatlas";
+	locked = false;
+}
+
+neverfadeaway : PhotoModeSticker
+{
+	displayName = "Never fadeaway";
+	imagePartName = "neverfadeaway";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_graffiti_02.inkatlas";
+	locked = false;
+}
+
+guitar : PhotoModeSticker
+{
+	displayName = "Johnny guitar";
+	imagePartName = "guitar";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_graffiti_02.inkatlas";
+	locked = false;
+}
+
+finger : PhotoModeSticker
+{
+	displayName = "Johnny finger";
+	imagePartName = "finger";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/stickers/set_comics_graffiti_02.inkatlas";
+	locked = false;
+}
+

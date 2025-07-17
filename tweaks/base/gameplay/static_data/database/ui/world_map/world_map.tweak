@@ -126,7 +126,7 @@ CommonFilterGroup : MappinUIFilterGroup
 	filterType = "WorldMap.CommonFilter";
 	mappins = 
 	[
-		"Mappins.CustomPositionVariant", "Mappins.VehicleVariant", "Mappins.MotorcycleVariant", "Mappins.PointOfInterest_ApartmentVariant"
+		"Mappins.CustomPositionVariant", "Mappins.DelamainTaxiVariant", "Mappins.DelamainTaxiDestinationVariant", "Mappins.VehicleVariant", "Mappins.MotorcycleVariant", "Mappins.PointOfInterest_ApartmentVariant"
 	];
 }
 
@@ -146,7 +146,7 @@ AllServicePointsFilterGroup : MappinUIFilterGroup
 	filterType = "WorldMap.ServicePointFilter";
 	mappins = 
 	[
-		"Mappins.CustomPositionVariant", "Mappins.VehicleVariant", "Mappins.MotorcycleVariant", "Mappins.PointOfInterest_ApartmentVariant", "Mappins.PointOfInterest_ServicePointRipperdocVariant", "Mappins.PointOfInterest_ServicePointClothesVariant", "Mappins.PointOfInterest_ServicePointFoodVariant", "Mappins.PointOfInterest_ServicePointJunkVariant", "Mappins.PointOfInterest_ServicePointMedsVariant", "Mappins.PointOfInterest_ServicePointNetTrainerVariant", "Mappins.PointOfInterest_ServicePointGunsVariant", "Mappins.ServicePointBlackMarketVariant", "Mappins.PointOfInterest_ServicePointMeleeTrainerVariant", "Mappins.PointOfInterest_ServicePointBarVariant", "Mappins.PointOfInterest_ServicePointProstituteVariant", "Mappins.PointOfInterest_ServicePointDropPoint", "Mappins.PointOfInterest_FastTravelVariant", "Mappins.PointOfInterest_NCARTVariant", "Mappins.CarForPurchaseVariant"
+		"Mappins.CustomPositionVariant", "Mappins.DelamainTaxiVariant", "Mappins.DelamainTaxiDestinationVariant", "Mappins.VehicleVariant", "Mappins.MotorcycleVariant", "Mappins.PointOfInterest_ApartmentVariant", "Mappins.PointOfInterest_ServicePointRipperdocVariant", "Mappins.PointOfInterest_ServicePointClothesVariant", "Mappins.PointOfInterest_ServicePointFoodVariant", "Mappins.PointOfInterest_ServicePointJunkVariant", "Mappins.PointOfInterest_ServicePointMedsVariant", "Mappins.PointOfInterest_ServicePointNetTrainerVariant", "Mappins.PointOfInterest_ServicePointGunsVariant", "Mappins.ServicePointBlackMarketVariant", "Mappins.PointOfInterest_ServicePointMeleeTrainerVariant", "Mappins.PointOfInterest_ServicePointBarVariant", "Mappins.PointOfInterest_ServicePointProstituteVariant", "Mappins.PointOfInterest_ServicePointDropPoint", "Mappins.PointOfInterest_FastTravelVariant", "Mappins.PointOfInterest_NCARTVariant", "Mappins.CarForPurchaseVariant"
 	];
 }
 
@@ -335,7 +335,7 @@ ServicePointMappinsGroup : MappinsGroup
 	widgetState = "ServicePoint";
 	mappins = 
 	[
-		"Mappins.CustomPositionVariant", "Mappins.VehicleVariant", "Mappins.MotorcycleVariant", "Mappins.PointOfInterest_ApartmentVariant", "Mappins.PointOfInterest_ServicePointRipperdocVariant", "Mappins.PointOfInterest_ServicePointClothesVariant", "Mappins.PointOfInterest_ServicePointFoodVariant", "Mappins.PointOfInterest_ServicePointJunkVariant", "Mappins.PointOfInterest_ServicePointMedsVariant", "Mappins.PointOfInterest_ServicePointNetTrainerVariant", "Mappins.PointOfInterest_ServicePointGunsVariant", "Mappins.ServicePointBlackMarketVariant", "Mappins.PointOfInterest_ServicePointMeleeTrainerVariant", "Mappins.PointOfInterest_ServicePointBarVariant", "Mappins.PointOfInterest_ServicePointProstituteVariant", "Mappins.PointOfInterest_ServicePointDropPoint", "Mappins.RelicDeviceBasicVariant", "Mappins.RelicDeviceSpecialVariant", "Mappins.DogtownGateVariant"
+		"Mappins.CustomPositionVariant", "Mappins.DelamainTaxiVariant", "Mappins.DelamainTaxiDestinationVariant", "Mappins.VehicleVariant", "Mappins.MotorcycleVariant", "Mappins.PointOfInterest_ApartmentVariant", "Mappins.PointOfInterest_ServicePointRipperdocVariant", "Mappins.PointOfInterest_ServicePointClothesVariant", "Mappins.PointOfInterest_ServicePointFoodVariant", "Mappins.PointOfInterest_ServicePointJunkVariant", "Mappins.PointOfInterest_ServicePointMedsVariant", "Mappins.PointOfInterest_ServicePointNetTrainerVariant", "Mappins.PointOfInterest_ServicePointGunsVariant", "Mappins.ServicePointBlackMarketVariant", "Mappins.PointOfInterest_ServicePointMeleeTrainerVariant", "Mappins.PointOfInterest_ServicePointBarVariant", "Mappins.PointOfInterest_ServicePointProstituteVariant", "Mappins.PointOfInterest_ServicePointDropPoint", "Mappins.RelicDeviceBasicVariant", "Mappins.RelicDeviceSpecialVariant", "Mappins.DogtownGateVariant"
 	];
 }
 

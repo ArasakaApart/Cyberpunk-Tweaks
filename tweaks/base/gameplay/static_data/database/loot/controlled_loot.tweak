@@ -995,6 +995,7 @@ CyberwareCapacityShardLootSet_BaseLimiter : ControlledLootSet
 	maxDropsGloballyShared = true;
 	dropsInContainers = false;
 	blocksInContainers = false;
+	rollBackCounterWhenLootIsDestroyed = true;
 }
 
 UncommonCyberwareCapacityShardLootSet_BaseGame : CyberwareCapacityShardLootSet_BaseLimiter
@@ -1053,6 +1054,7 @@ CyberwareCapacityShardLootSet_Base : ControlledLootSet
 	chanceIncreasePerAttempt = 0.01;
 	dropsInContainers = false;
 	blocksInContainers = false;
+	rollBackCounterWhenLootIsDestroyed = true;
 }
 
 Tier2_CyberwareCapacityShardLootSet_BaseGame : CyberwareCapacityShardLootSet_Base
@@ -1170,6 +1172,7 @@ CyberwareCapacityShardLootSet_Base_MaxLevel : ControlledLootSet
 	maxDropsGloballyShared = false;
 	dropsInContainers = false;
 	blocksInContainers = false;
+	rollBackCounterWhenLootIsDestroyed = true;
 }
 
 Tier2_CyberwareCapacityShardLootSet_MaxLevel : CyberwareCapacityShardLootSet_Base_MaxLevel

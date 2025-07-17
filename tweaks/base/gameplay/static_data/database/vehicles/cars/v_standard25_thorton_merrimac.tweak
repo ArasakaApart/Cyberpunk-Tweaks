@@ -1067,6 +1067,447 @@ VehicleDestructionParamsMerrimac : VehicleDestructionParamsDefault_4w
 	];
 }
 
+VehicleThortonMerrimacUIData : VehicleDefaultUIData
+{
+	productionYear = "2064-2077";
+	driveLayout = "LocKey#45372";
+	horsepower = 633.0f;
+	mass = 2612.0f;
+	info = "LocKey#93981";
+}
+
+vcc_paintjob_thorton_merrimac_basic_poor_04 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_poor_04"
+	];
+	matchingColorVariant = 
+	[
+		"poor_04"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_poor_04";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_poor_green_02.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_merrimac_basic_poor_05 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_poor_05"
+	];
+	matchingColorVariant = 
+	[
+		"poor_05"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_poor_05";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_poor_silver_02.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_merrimac_basic_poor_06 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_poor_06"
+	];
+	matchingColorVariant = 
+	[
+		"poor_06"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_poor_06";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_poor_06.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_merrimac_basic_poor_07 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_poor_07"
+	];
+	matchingColorVariant = 
+	[
+		"poor_07"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_poor_07";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_poor_07.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 0.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_merrimac_basic_poor_09 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_poor_09"
+	];
+	matchingColorVariant = 
+	[
+		"poor_09"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_poor_09";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_poor_09.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_merrimac_basic_poor_10 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_poor_10"
+	];
+	matchingColorVariant = 
+	[
+		"poor_10"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_poor_10";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_poor_10.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_merrimac_basic_poor_11 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_poor_11"
+	];
+	matchingColorVariant = 
+	[
+		"poor_11"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_poor_11";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_poor_11.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_merrimac_basic_suburban_02 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_suburban_02"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_02"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_suburban_02";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_suburban_brown_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_merrimac_basic_suburban_04 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_suburban_04"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_04"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_suburban_04";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_suburban_red_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_merrimac_basic_suburban_07 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_suburban_07"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_07"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_suburban_07";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_suburban_07.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_merrimac_basic_suburban_09 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_suburban_09"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_09"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_suburban_09";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_suburban_09.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_merrimac_basic_urban_05 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_urban_05"
+	];
+	matchingColorVariant = 
+	[
+		"urban_05"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_urban_05";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_urban_05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext02_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_merrimac_basic_urban_06 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_urban_06"
+	];
+	matchingColorVariant = 
+	[
+		"urban_06"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_urban_06";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_urban_06.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext02_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_merrimac_basic_urban_07 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_urban_07"
+	];
+	matchingColorVariant = 
+	[
+		"urban_07"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_urban_07";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_urban_07.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_merrimac_basic_urban_09 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_urban_09"
+	];
+	matchingColorVariant = 
+	[
+		"urban_09"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_urban_09";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_urban_09.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext02_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_merrimac_basic_urban_10 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_merrimac_basic_urban_10"
+	];
+	matchingColorVariant = 
+	[
+		"urban_10"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_merrimac_basic_urban_10";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "wheel_02_bl_b", "wheel_02_br_b", "body_elements_player_01", "bumper_b_fixed_01", "bumper_f_player_fixed"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ext_urban_10.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_thorton_merrimac\entities\meshes\textures\ml_v_standard25_thorton_merrimac_ext02_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
 VehicleThortonMerrimacAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
 {
 	colorTemplates = 
@@ -1128,24 +1569,6 @@ VehicleThortonMerrimacAppearancesToColorTemplate : VehicleAppearancesToColorTemp
 		{
 			matchingAppearances = 
 			[
-				"thorton_merrimac_basic_poor_07"
-			];
-			matchingColorVariant = 
-			[
-				"poor_07"
-			];
-			mainColor = 
-			[
-				107, 107, 155
-			];
-			secondaryColor = 
-			[
-				58, 47, 49
-			];
-		} : VehicleColorTemplate, 
-		{
-			matchingAppearances = 
-			[
 				"thorton_merrimac_basic_poor_08"
 			];
 			matchingColorVariant = 
@@ -1159,24 +1582,6 @@ VehicleThortonMerrimacAppearancesToColorTemplate : VehicleAppearancesToColorTemp
 			secondaryColor = 
 			[
 				50, 50, 50
-			];
-		} : VehicleColorTemplate, 
-		{
-			matchingAppearances = 
-			[
-				"thorton_merrimac_basic_poor_09"
-			];
-			matchingColorVariant = 
-			[
-				"poor_09"
-			];
-			mainColor = 
-			[
-				136, 164, 135
-			];
-			secondaryColor = 
-			[
-				80, 80, 74
 			];
 		} : VehicleColorTemplate, 
 		{
@@ -1412,16 +1817,8 @@ VehicleThortonMerrimacAppearancesToColorTemplate : VehicleAppearancesToColorTemp
 			[
 				228, 208, 107
 			];
-		} : VehicleColorTemplate
+		} : VehicleColorTemplate, 
+		"Vehicle.vcc_paintjob_thorton_merrimac_basic_poor_04", "Vehicle.vcc_paintjob_thorton_merrimac_basic_poor_05", "Vehicle.vcc_paintjob_thorton_merrimac_basic_poor_06", "Vehicle.vcc_paintjob_thorton_merrimac_basic_poor_07", "Vehicle.vcc_paintjob_thorton_merrimac_basic_poor_09", "Vehicle.vcc_paintjob_thorton_merrimac_basic_poor_10", "Vehicle.vcc_paintjob_thorton_merrimac_basic_poor_11", "Vehicle.vcc_paintjob_thorton_merrimac_basic_suburban_02", "Vehicle.vcc_paintjob_thorton_merrimac_basic_suburban_04", "Vehicle.vcc_paintjob_thorton_merrimac_basic_suburban_07", "Vehicle.vcc_paintjob_thorton_merrimac_basic_suburban_09", "Vehicle.vcc_paintjob_thorton_merrimac_basic_urban_05", "Vehicle.vcc_paintjob_thorton_merrimac_basic_urban_06", "Vehicle.vcc_paintjob_thorton_merrimac_basic_urban_07", "Vehicle.vcc_paintjob_thorton_merrimac_basic_urban_09", "Vehicle.vcc_paintjob_thorton_merrimac_basic_urban_10"
 	];
-}
-
-VehicleThortonMerrimacUIData : VehicleDefaultUIData
-{
-	productionYear = "2064-2077";
-	driveLayout = "LocKey#45372";
-	horsepower = 633.0f;
-	mass = 2612.0f;
-	info = "LocKey#93981";
 }
 

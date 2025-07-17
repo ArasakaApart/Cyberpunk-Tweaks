@@ -793,6 +793,15 @@ VehicleDestructionParamsThrax : VehicleDestructionParamsDefault_4w
 	];
 }
 
+VehicleChevillonThraxUIData : VehicleDefaultUIData
+{
+	productionYear = "2062";
+	driveLayout = "LocKey#45371";
+	horsepower = 388.0f;
+	mass = 2063.0f;
+	info = "LocKey#53550";
+}
+
 VehicleChevalierThraxAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
 {
 	colorTemplates = 
@@ -1014,14 +1023,5 @@ VehicleChevalierThraxAppearancesToColorTemplate : VehicleAppearancesToColorTempl
 			];
 		} : VehicleColorTemplate
 	];
-}
-
-VehicleChevillonThraxUIData : VehicleDefaultUIData
-{
-	productionYear = "2062";
-	driveLayout = "LocKey#45371";
-	horsepower = 388.0f;
-	mass = 2063.0f;
-	info = "LocKey#53550";
 }
 

@@ -111,6 +111,8 @@ Vehicle : SpawnableObject
 	fk< VehicleModel > model = "";
 	fk< VehicleManufacturer > manufacturer = "";
 	fk< IsHackable > isHackable = "Vehicle.Dynamic";
+	bool canBeActiveVehicle = true;
+	bool canOnlySpawnOnValidRoad = false;
 	fk< RandomPassengerEntry >[] randomPassengers = [];
 	fk< Character >[] preventionPassengers = [];
 	int minVehiclePassengersCount = 1;
@@ -177,12 +179,17 @@ Vehicle : SpawnableObject
 	bool isArmoredVehicle = false;
 	bool hasSideWindows = true;
 	bool hasVisualCustomization = false;
+	bool hasUniqueCustomization = false;
 	bool visualCustomizationTeaser = false;
+	bool visualCustomizationUpdateRequired = false;
+	bool canDeleteUniqueTemplates = true;
 	CName customizationMenuType = "";
 	bool customizeCarRims = false;
+	bool customizeLights = true;
 	ResRef genericCustomizationMask = "";
 	CName customizableAppearance = "";
 	fk< VehicleVisualCustomizationPreviewSetup > customizationPreview = "";
+	fk< VehicleVisualCustomizationPreviewGlowSetup > customizationPreviewGlow = "";
 	bool colorProfilesRestricted = false;
 	fk< VehicleAppearancesToColorTemplate > appearancesToColorTemplate = "";
 	CName twintoneModelName = "";
@@ -212,6 +219,7 @@ Vehicle : SpawnableObject
 	CName[] queryOnlyExceptions = [];
 	string debugStatusString = "";
 	float hitCooldown = 0.0f;
+	fk< PlayerVehicleDisplayOverride > displayOverride = "";
 }
 
 VehicleType
@@ -391,6 +399,7 @@ VehicleColorTemplate
 
 VehicleCustomMultilayer
 {
+	CName[] onlyForPlayerVehicleAppearances = [];
 	CName[] affectedComponents = [];
 	CName[] excludedComponents = [];
 	ResRef customMlSetup = "";
@@ -993,8 +1002,28 @@ VehicleVisualCustomizationPreviewSetup
 	bool previewLeftLight = false;
 	float leftLightMarginTop = 0.0;
 	float leftLightMarginRight = 0.0;
+	float leftLightWidth = 170.0;
+	float leftLightHeight = 240.0;
 	bool previewRightLight = false;
 	float rightLightMarginTop = 0.0;
 	float rightLightMarginRight = 0.0;
+	float rightLightWidth = 170.0;
+	float rightLightHeight = 240.0;
+}
+
+VehicleVisualCustomizationPreviewGlowSetup
+{
+	fk< UIIcon > primaryImage = "";
+	fk< UIIcon > secondaryImage = "";
+	fk< UIIcon > lightsImage = "";
+	fk< UIIcon > backgroundImage = "";
+}
+
+PlayerVehicleDisplayOverride
+{
+	bool forcedFavorite = false;
+	CName icon = "";
+	CName defaultState = "";
+	CName activeState = "";
 }
 
