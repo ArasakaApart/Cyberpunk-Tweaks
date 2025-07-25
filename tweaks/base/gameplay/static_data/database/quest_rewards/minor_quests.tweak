@@ -2548,3 +2548,21 @@ mws_se5_07_half_price : RewardBase
 	];
 }
 
+mq059_money_compensasion : RewardBase
+{
+	name = "mq005_money_intimidation reward";
+	currencyPackage = 
+	[
+		{
+			quantityModifiers = 
+			[
+				{
+					statType = "BaseStats.Quantity";
+					modifierType = "Additive";
+					value = 15000;
+				} : ConstantStatModifier
+			];
+		}
+	];
+}
+

@@ -625,6 +625,12 @@ InternetBrowserWidget : WidgetDefinition
 	];
 }
 
+YaibaWidget : WidgetDefinition
+{
+	libraryPath = "base\gameplay\gui\quests\mq060\yaiba_showroom_website.inkwidget";
+	string libraryID = "Root";
+}
+
 VentilationSystemDeviceWidget : DeviceWidgetDefinition
 {
 	libraryPath = "base\gameplay\gui\world\ventilation_system\ventilation_system_device.inkwidget";

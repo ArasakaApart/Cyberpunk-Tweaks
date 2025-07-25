@@ -736,6 +736,501 @@ VehicleDestructionParamsSupron : VehicleDestructionParamsDefault_4w
 	];
 }
 
+VehicleMahirSupronUIData : VehicleDefaultUIData
+{
+	productionYear = "2047-2059";
+	driveLayout = "LocKey#45370";
+	horsepower = 110.0f;
+	mass = 1220.0f;
+	info = "LocKey#53564";
+}
+
+vcc_paintjob_mahir_supron__basic_aldecaldos_01 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_aldecaldos_01"
+	];
+	matchingColorVariant = 
+	[
+		"aldecaldos_01"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_aldecaldos_01";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\aldecaldos_ext_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_mox_01 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_mox_01"
+	];
+	matchingColorVariant = 
+	[
+		"mox_01"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_mox_01";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mox_ext_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_poor_03 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_poor_03", "mahir_supron__basic_poor_08"
+	];
+	matchingColorVariant = 
+	[
+		"poor_03", "poor_08"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_poor_03";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\supron_poor_03.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_poor_04 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_poor_04", "mahir_supron__basic_poor_09"
+	];
+	matchingColorVariant = 
+	[
+		"poor_04", "poor_09"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_poor_04";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\supron_poor_04.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_suburban_01 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_suburban_01"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_01"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_suburban_01";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\supron_surban_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 6.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_suburban_02 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_suburban_02"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_02"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_suburban_02";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\supron_surban_02.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 6.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_suburban_03 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_suburban_03"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_03"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_suburban_03";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\supron_surban_03.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 6.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_suburban_04 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_suburban_04"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_04"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_suburban_04";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\supron_surban_04.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 6.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_suburban_05 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_suburban_05"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_05"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_suburban_05";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\supron_surban_05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 6.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_suburban_06 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_suburban_06"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_06"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_suburban_06";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\supron_surban_07.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 6.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_suburban_07 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_suburban_07"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_07"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_suburban_07";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\supron_surban_06.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 6.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_tap_tap : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_tap_tap"
+	];
+	matchingColorVariant = 
+	[
+		"tap_tap"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_tap_tap";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\ml_v_standard25_mahir_supron__ext01_body_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\ml_v_standard25_mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_urban_01 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_urban_01"
+	];
+	matchingColorVariant = 
+	[
+		"urban_01"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_urban_01";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\supron_urban_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 6.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_urban_03 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_urban_03"
+	];
+	matchingColorVariant = 
+	[
+		"urban_03"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_urban_03";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\supron_urban_03.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 6.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_urban_04 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_urban_04"
+	];
+	matchingColorVariant = 
+	[
+		"urban_04"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_urban_04";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\supron_urban_04.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 6.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_urban_05 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_urban_05"
+	];
+	matchingColorVariant = 
+	[
+		"urban_05"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_urban_05";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\supron_urban_05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = 3.0f;
+			coatLayerMax = 6.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_urban_06 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_urban_06"
+	];
+	matchingColorVariant = 
+	[
+		"urban_06"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_urban_06";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\supron_urban_06.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 6.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mahir_supron__basic_urban_07 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mahir_supron__basic_urban_07"
+	];
+	matchingColorVariant = 
+	[
+		"urban_07"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mahir_supron__basic_urban_07";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\supron_urban_07.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard25_mahir_supron\entities\meshes\textures\mahir_supron__ext01_body_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 6.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
 VehicleMahirSupronAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
 {
 	colorTemplates = 
@@ -847,16 +1342,8 @@ VehicleMahirSupronAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
 			[
 				68, 65, 66
 			];
-		} : VehicleColorTemplate
+		} : VehicleColorTemplate, 
+		"Vehicle.vcc_paintjob_mahir_supron__basic_aldecaldos_01", "Vehicle.vcc_paintjob_mahir_supron__basic_mox_01", "Vehicle.vcc_paintjob_mahir_supron__basic_poor_03", "Vehicle.vcc_paintjob_mahir_supron__basic_poor_04", "Vehicle.vcc_paintjob_mahir_supron__basic_suburban_01", "Vehicle.vcc_paintjob_mahir_supron__basic_suburban_02", "Vehicle.vcc_paintjob_mahir_supron__basic_suburban_03", "Vehicle.vcc_paintjob_mahir_supron__basic_suburban_04", "Vehicle.vcc_paintjob_mahir_supron__basic_suburban_05", "Vehicle.vcc_paintjob_mahir_supron__basic_suburban_06", "Vehicle.vcc_paintjob_mahir_supron__basic_suburban_07", "Vehicle.vcc_paintjob_mahir_supron__basic_tap_tap", "Vehicle.vcc_paintjob_mahir_supron__basic_urban_01", "Vehicle.vcc_paintjob_mahir_supron__basic_urban_03", "Vehicle.vcc_paintjob_mahir_supron__basic_urban_04", "Vehicle.vcc_paintjob_mahir_supron__basic_urban_05", "Vehicle.vcc_paintjob_mahir_supron__basic_urban_06", "Vehicle.vcc_paintjob_mahir_supron__basic_urban_07"
 	];
-}
-
-VehicleMahirSupronUIData : VehicleDefaultUIData
-{
-	productionYear = "2047-2059";
-	driveLayout = "LocKey#45370";
-	horsepower = 110.0f;
-	mass = 1220.0f;
-	info = "LocKey#53564";
 }
 

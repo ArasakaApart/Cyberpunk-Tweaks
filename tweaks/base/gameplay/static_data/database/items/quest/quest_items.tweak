@@ -2568,3 +2568,33 @@ base_game_courier_reward_autofixer_discount : STSItem
 	];
 }
 
+[ notQueryable ]
+mq059_master_key : QuestItem
+{
+	string friendlyName = "sq021_key_drawer";
+	CName entityName = "sq021_key_drawer";
+	iconPath = "sq021_key_drawer";
+	fk< Quality > quality = "Quality.Rare";
+	fk< ItemCategory > itemCategory = "ItemCategory.General";
+	displayName = "LocKey#96686";
+	localizedDescription = "LocKey#96686";
+	CName[] tags = 
+	[
+		"Quest"
+	];
+}
+
+replay_tutorial_shard : QuestItem
+{
+	string friendlyName = "replay_tutorial_shard";
+	fk< ItemCategory > itemCategory = "ItemCategory.General";
+	quality = "Quality.Legendary";
+	displayName = "LocKey#96679";
+	localizedDescription = "LocKey#96680";
+	iconPath = "q003_e3_Spiderbot_Splinter";
+	CName[] tags = 
+	[
+		"Quest"
+	];
+}
+

@@ -20,14 +20,6 @@ v_sport1_rayfield_aerondight : Vehicle_4w_Default
 	displayName = "LocKey#95882";
 	vehicleUIData = "Vehicle.VehicleRayfieldAerondightUIData";
 	twintoneModelName = "rayfield.aerondight";
-	customizationMenuType = "Rayfield";
-	genericCustomizationMask = "base\gameplay\vehicles\visual_customization\car_masks\vcc_aerondight_color_mask.xbm";
-	excludedComponentsGeneric = 
-	[
-		"wheel_01_fl_a", "wheel_01_fr_a", "wheel_01_bl_a", "wheel_01_br_a"
-	];
-	customizeCarRims = true;
-	customizationPreview = "Vehicle.PreviewAerondight";
 	appearancesToColorTemplate = "Vehicle.VehicleRayfieldAerondightAppearancesToColorTemplate";
 	fk< UIIcon > icon = "UIIcon.rayfield_aerondight__basic_player_01";
 	destroyedAppearance = "rayfield_aerondight__basic_burnt";

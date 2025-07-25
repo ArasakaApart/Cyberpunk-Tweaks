@@ -619,6 +619,12 @@ CustomPositionIcon : UIIcon
 	atlasPartName = "custom_position";
 }
 
+DelamainTaxiIcon : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\mappin_icons.inkatlas";
+	atlasPartName = "delamain";
+}
+
 RebuyIcon : UIIcon
 {
 	atlasResourcePath = "base\gameplay\gui\common\icons\mappin_icons.inkatlas";

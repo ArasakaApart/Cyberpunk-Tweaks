@@ -15,6 +15,8 @@ v_standard2_archer_bandit : Vehicle_4w_Default
 	];
 	displayName = "LocKey#78912";
 	vehicleUIData = "Vehicle.VehicleArcherBanditUIData";
+	twintoneModelName = "archer.quartz.bandit";
+	appearancesToColorTemplate = "Vehicle.VehicleArcherQuartzBanditAppearancesToColorTemplate";
 	fk< UIIcon > icon = "UIIcon.archer_quartz_bandit";
 	destroyedAppearance = "archer_bandit_burnt_01";
 	widgetStyleSheetPath = "base/gameplay/gui/widgets/vehicle/archer/archer_regular.inkstyle";
@@ -629,5 +631,30 @@ VehicleArcherBanditUIData : VehicleDefaultUIData
 	horsepower = 364.0f;
 	mass = 1140.0f;
 	info = "LocKey#78914";
+}
+
+VehicleArcherQuartzBanditAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
+{
+	colorTemplates = 
+	[
+		{
+			matchingAppearances = 
+			[
+				"test"
+			];
+			matchingColorVariant = 
+			[
+				"test"
+			];
+			mainColor = 
+			[
+				0, 0, 0
+			];
+			secondaryColor = 
+			[
+				0, 0, 0
+			];
+		} : VehicleColorTemplate
+	];
 }
 

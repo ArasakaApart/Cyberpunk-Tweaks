@@ -2617,6 +2617,12 @@ vehicle_metaquest_chevalier_emperor_player_full : JournalIcon
 	atlasPartName = "v_standard3_chevalier_emperor_player_full";
 }
 
+vehicle_metaquest_chevalier_legatus_player_full : JournalIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\codex\assets_fullscreen36_atlas.inkatlas";
+	atlasPartName = "v_standard3_chevalier_legatus_player_full";
+}
+
 vehicle_metaquest_archer_quartz_player_full : JournalIcon
 {
 	atlasResourcePath = "base/gameplay/gui/world/internet/templates/vehicles/vehicle_website_small_images.inkatlas";
@@ -2699,5 +2705,35 @@ vehicle_metaquest_porsche_911turbo_basic_alt : JournalIcon
 {
 	atlasResourcePath = "base/gameplay/gui/world/internet/templates/vehicles/vehicle_website_small_images2.inkatlas";
 	atlasPartName = "v_porsche_911turbo__basic_alt";
+}
+
+vehicle_metaquest_yaiba_semimaru_player_fullscreen_codex : JournalIcon
+{
+	atlasResourcePath = "base/gameplay/gui/common/icons/codex/codex_car_visual_assets_01.inkatlas";
+	atlasPartName = "v_sport1_yaiba_semimaru_player_full";
+}
+
+vehicle_metaquest_caliburn_mordred_player_fullscreen_codex : JournalIcon
+{
+	atlasResourcePath = "base/gameplay/gui/common/icons/codex/codex_car_visual_assets_01.inkatlas";
+	atlasPartName = "v_sport1_caliburn_mordred_player_full";
+}
+
+vehicle_metaquest_yaiba_muramasa_player_fullscreen_codex : JournalIcon
+{
+	atlasResourcePath = "base/gameplay/gui/common/icons/codex/codex_car_visual_assets_01.inkatlas";
+	atlasPartName = "v_sportbike1_yaiba_muramasa_player_full";
+}
+
+vehicle_metaquest_chevalier_legatus_aquila_player_fullscreen_codex : JournalIcon
+{
+	atlasResourcePath = "base/gameplay/gui/common/icons/codex/codex_car_visual_assets_01.inkatlas";
+	atlasPartName = "v_standard3_chevalier_legatus_aquila_player_full";
+}
+
+vehicle_metaquest_yaiba_muramasa_player_full : JournalIcon
+{
+	atlasResourcePath = "base/gameplay/gui/common/icons/codex/assets_fullscreen36_atlas.inkatlas";
+	atlasPartName = "v_sportbike1_yaiba_muramasa_player_full";
 }
 

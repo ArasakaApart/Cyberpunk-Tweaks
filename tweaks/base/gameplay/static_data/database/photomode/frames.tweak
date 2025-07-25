@@ -901,3 +901,1065 @@ comic_swoosh01_yellow_flip : PhotoModeFrame
 	locked = false;
 }
 
+wanted_red_nomad : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/wanted_red_nomad.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+wanted_red_streetkid : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/wanted_red_streetkid.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+wanted_red_corpo : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/wanted_red_corpo.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+dead_blood_01 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/dead_blood_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+dead_blood_01_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/dead_blood_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+dead_blood_02 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/dead_blood_02.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+dead_blood_02_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/dead_blood_02.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+dead_blood_03 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/dead_blood_03.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+dead_blood_03_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/dead_blood_03.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+dead_broken_01 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/dead_broken_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+dead_broken_01_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/dead_broken_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+dead_broken_02 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/dead_broken_02.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+dead_broken_02_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/dead_broken_02.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+bullet_train_01 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/bullet_train_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+bullet_train_01_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/bullet_train_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_yellow_dynamic01 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_yellow_dynamic02 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic02.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_yellow_dynamic03 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic03.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_yellow_dynamic04 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic04.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_yellow_dynamic01_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_yellow_dynamic02_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic02.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_yellow_dynamic03_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic03.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_yellow_dynamic04_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic04.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_yellow_dynamic01_flip2 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_yellow_dynamic02_flip2 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic02.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_yellow_dynamic03_flip2 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic03.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_yellow_dynamic04_flip2 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic04.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_yellow_dynamic01_flip3 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_yellow_dynamic02_flip3 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic02.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_yellow_dynamic03_flip3 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic03.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_yellow_dynamic04_flip3 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_yellow_dynamic04.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_black_dynamic01 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_black_dynamic02 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic02.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_black_dynamic03 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic03.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_black_dynamic04 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic04.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_black_dynamic01_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_black_dynamic02_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic02.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_black_dynamic03_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic03.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_black_dynamic04_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic04.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_black_dynamic01_flip2 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_black_dynamic02_flip2 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic02.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_black_dynamic03_flip2 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic03.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_black_dynamic04_flip2 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic04.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_black_dynamic01_flip3 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_black_dynamic02_flip3 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic02.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_black_dynamic03_flip3 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic03.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_black_dynamic04_flip3 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_black_dynamic04.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = true;
+	locked = false;
+}
+
+comics_cutout_adam_01 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_cutout_adam_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_cutout_adam_01_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_cutout_adam_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_cutout_johnny_01 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_cutout_johnny_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_cutout_johnny_01_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_cutout_johnny_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_cutout_jackie_01 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_cutout_jackie_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_cutout_jackie_01_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_cutout_jackie_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_cutout_vmale_01 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_cutout_vmale_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_cutout_vmale_01_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_cutout_vmale_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_cutout_vfemale_01 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_cutout_vfemale_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_cutout_vfemale_01_flip1 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_cutout_vfemale_01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = true;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_nightcity01 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_nightcity01.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+
+comics_nightcity02 : PhotoModeFrame
+{
+	displayName = "LocKey#52020";
+	libraryItemName = "frameElement";
+	imagePartsNames = 
+	[
+		"frame"
+	];
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/frame/comics_nightcity02.inkatlas";
+	color = 
+	[
+		255, 255, 255, 255
+	];
+	flipHorizontal = false;
+	flipVertical = false;
+	locked = false;
+}
+

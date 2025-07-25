@@ -677,6 +677,20 @@ AuthorizePersonalLink : Interactions.None
 	string action = "Choice1";
 }
 
+mq058_HackComputer : Interactions.None
+{
+	string name = "mq058_HackComputer";
+	caption = "LocKey#97241";
+	string action = "Choice1";
+}
+
+mq058_ExtractData : Interactions.None
+{
+	string name = "mq058_ExtractData";
+	caption = "LocKey#97242";
+	string action = "Choice1";
+}
+
 ConnectPersonalLinkNoMinigame : InteractionChoice
 {
 	string name = "ConnectPersonalLinkNoMinigame";
@@ -942,6 +956,26 @@ seat_back_right : InteractionMountChoice
 	string action = "Choice1";
 	CName tag = "mount";
 	CName vehicleMountSlot = "seat_back_right";
+}
+
+delamain_seat_back_left : InteractionMountChoice
+{
+	string name = "seat_back_left";
+	caption = "LocKey#97061";
+	string action = "Choice1";
+	CName tag = "mount";
+	CName vehicleMountSlot = "seat_back_left";
+	fk< ChoiceCaptionIconPart > captionIcon = "ChoiceCaptionParts.DelamainTaxiIcon";
+}
+
+delamain_seat_back_right : InteractionMountChoice
+{
+	string name = "seat_back_right";
+	caption = "LocKey#97061";
+	string action = "Choice1";
+	CName tag = "mount";
+	CName vehicleMountSlot = "seat_back_right";
+	fk< ChoiceCaptionIconPart > captionIcon = "ChoiceCaptionParts.DelamainTaxiIcon";
 }
 
 vehicle_door_locked : InteractionChoice

@@ -21,14 +21,6 @@ v_sport2_villefort_deleon : Vehicle_4w_Default
 	displayName = "LocKey#94006";
 	vehicleUIData = "Vehicle.VehicleVillefortDeleonUIData";
 	twintoneModelName = "villefort.deleon";
-	customizationMenuType = "Partner";
-	genericCustomizationMask = "ep1\gameplay\vehicles\visual_customization\car_masks\vcc_villefortdeleonbasic_color_mask.xbm";
-	excludedComponentsGeneric = 
-	[
-		"wheel_01_fl_a", "wheel_01_fr_a", "wheel_01_bl_a", "wheel_01_br_a", "body_player_01", "bumper_f_01", "bumper_f_player_01", "bumper_b_01", "trunk_player_01"
-	];
-	customizeCarRims = false;
-	customizationPreview = "Vehicle.PreviewGeneric";
 	appearancesToColorTemplate = "Vehicle.VehicleVillefortDeleonAppearancesToColorTemplate";
 	headlightColor = 
 	[
@@ -1398,7 +1390,7 @@ VehicleVillefortDeleonAppearancesToColorTemplate : VehicleAppearancesToColorTemp
 				{
 					excludedComponents = 
 					[
-						"wheel_01_fl_a", "wheel_01_fr_a", "wheel_01_bl_a", "wheel_01_br_a", "bumper_f_player_01"
+						"wheel_01_fl_a", "wheel_01_fr_a", "wheel_01_bl_a", "wheel_01_br_a", "body_player_01", "trunk_player_01", "bumper_f_player_01"
 					];
 					customMlSetup = "ep1\vehicles\sport\v_sport2_villefort_deleon\entities\meshes\textures\ext_suburban_10.mlsetup";
 					customMlMask = "ep1\vehicles\sport\v_sport2_villefort_deleon\entities\meshes\textures\ml_exterior.mlmask";

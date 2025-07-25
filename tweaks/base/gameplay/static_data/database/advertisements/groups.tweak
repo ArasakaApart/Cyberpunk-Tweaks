@@ -234,3 +234,12 @@ ExampleDitrictGroupWithInclude : AdvertisementGroup
 	fallbackAtlasResource = "base\gameplay\gui\world\adverts\fallbacks_per_district\santodomingo.inkatlas";
 }
 
+mq060_yaiba_showroom : AdvertisementGroup
+{
+	advertisements = 
+	[
+		"Adverts.Yaiba_Showroom"
+	];
+	fallbackAtlasResource = "base\gameplay\gui\quests\mq060\yaiba_billboards\yaiba_billboards_assets.inkatlas";
+}
+

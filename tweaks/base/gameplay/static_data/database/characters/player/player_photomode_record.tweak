@@ -176,3 +176,165 @@ Kurt_Puppet_Photomode : TPP_Player
 	persistentName = "PhotomodePuppet";
 }
 
+RitaWheeler_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\rita_wheeler\rita_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Cheri_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\cheri_nowlin\cheri_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Misty_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\misty\misty_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Claire_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\claire\claire_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Dexter_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\dexter_deshawn\dexter_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Muamar_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\muamar_reyes\muamar_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Regina_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\regina_jones\regina_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Sebastian_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\sebastian_ibarra\sebastian_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Dakota_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\dakota_smith\dakota_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Wakako_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\wakako_okada\wakako_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Ozob_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\ozob\ozob_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Rachel_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\rachel_casich\rachel_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Royce_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\royce\royce_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Dumdum_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\dumdum\dumdum_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Dino_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\dino_dinovic\dino_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Iguana_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\iguana\iguana_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Brendan_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\brendan\brendan_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Jesse_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\jesse_johnson\jesse_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Garry_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\gerald_winkler\garry_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Lana_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "base\characters\entities\player\photo_mode\lana_prince\lana_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Aurore_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "ep1\characters\entities\player\photo_mode\aurore_cassel\aurore_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Lina_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "ep1\characters\entities\player\photo_mode\lina_malina\lina_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Alex_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "ep1\characters\entities\player\photo_mode\alex\alex_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Aymeric_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "ep1\characters\entities\player\photo_mode\aymeric_cassel\aymeric_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Stella_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "ep1\characters\entities\player\photo_mode\stella_ramos\stella_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Wade_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "ep1\characters\entities\player\photo_mode\wade_bleecker\wade_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+
+Dante_Puppet_Photomode : TPP_Player
+{
+	entityTemplatePath = "ep1\characters\entities\player\photo_mode\dante_caruso\dante_photomode.ent";
+	persistentName = "PhotomodePuppet";
+}
+

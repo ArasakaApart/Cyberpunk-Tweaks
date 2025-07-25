@@ -105,36 +105,86 @@ TechAbility_60_EMP_Blast : StatusEffect
 				{
 					prereqRecord = 
 					{
-						duration = 0.01f;
-					} : DurationPrereq;
+						nestedPrereqs = 
+						[
+							{
+								duration = 0.01f;
+							} : DurationPrereq, 
+							{
+								stateName = "InCombat";
+								isInState = true;
+							} : Prereqs.CombatPSMPrereq, 
+							"Perks.IsPlayerNotInVehicle"
+						];
+					} : ANDPrereq;
 					attackRecord = "Attacks.TechAbility_60_EMP_Boom";
 				} : TriggerAttackOnOwnerEffect, 
 				{
 					prereqRecord = 
 					{
-						duration = 1.99f;
-					} : DurationPrereq;
+						nestedPrereqs = 
+						[
+							{
+								duration = 1.99f;
+							} : DurationPrereq, 
+							{
+								stateName = "InCombat";
+								isInState = true;
+							} : Prereqs.CombatPSMPrereq, 
+							"Perks.IsPlayerNotInVehicle"
+						];
+					} : ANDPrereq;
 					attackRecord = "Attacks.TechAbility_60_EMP_Boom";
 				} : TriggerAttackOnOwnerEffect, 
 				{
 					prereqRecord = 
 					{
-						duration = 3.97f;
-					} : DurationPrereq;
+						nestedPrereqs = 
+						[
+							{
+								duration = 3.97f;
+							} : DurationPrereq, 
+							{
+								stateName = "InCombat";
+								isInState = true;
+							} : Prereqs.CombatPSMPrereq, 
+							"Perks.IsPlayerNotInVehicle"
+						];
+					} : ANDPrereq;
 					attackRecord = "Attacks.TechAbility_60_EMP_Boom";
 				} : TriggerAttackOnOwnerEffect, 
 				{
 					prereqRecord = 
 					{
-						duration = 5.96f;
-					} : DurationPrereq;
+						nestedPrereqs = 
+						[
+							{
+								duration = 5.96f;
+							} : DurationPrereq, 
+							{
+								stateName = "InCombat";
+								isInState = true;
+							} : Prereqs.CombatPSMPrereq, 
+							"Perks.IsPlayerNotInVehicle"
+						];
+					} : ANDPrereq;
 					attackRecord = "Attacks.TechAbility_60_EMP_Boom";
 				} : TriggerAttackOnOwnerEffect, 
 				{
 					prereqRecord = 
 					{
-						duration = 7.95f;
-					} : DurationPrereq;
+						nestedPrereqs = 
+						[
+							{
+								duration = 7.95f;
+							} : DurationPrereq, 
+							{
+								stateName = "InCombat";
+								isInState = true;
+							} : Prereqs.CombatPSMPrereq, 
+							"Perks.IsPlayerNotInVehicle"
+						];
+					} : ANDPrereq;
 					attackRecord = "Attacks.TechAbility_60_EMP_Boom";
 				} : TriggerAttackOnOwnerEffect
 			];

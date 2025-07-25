@@ -973,6 +973,305 @@ VehicleDestructionParamsEmperor : VehicleDestructionParamsDefault_4w
 	];
 }
 
+VehicleChevillonEmperorUIData : VehicleDefaultUIData
+{
+	productionYear = "2072-2077";
+	driveLayout = "LocKey#45372";
+	horsepower = 529.0f;
+	mass = 2776.0f;
+	info = "LocKey#53569";
+}
+
+vcc_paintjob_chevalier_emperor__basic_deathrace_01 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"chevalier_emperor__basic_deathrace_01"
+	];
+	matchingColorVariant = 
+	[
+		"deathrace_01"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_chevalier_emperor__basic_deathrace_01";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a", "bumper_b_01", "bumper_b_01_a", "bumper_f_01_b", "bumper_f_01_c", "bumper_f_01_d", "door_fl_a", "door_fr_a", "fuel_cap", "hood_b", "hood_c", "trunk_a", "trunk_b", "trunk_c", "trunk_d", "windshield_cover"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\steel_step_pattern.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\emperor_ext_01.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"bumper_b_01", "bumper_b_01_a", "bumper_f_01_b", "bumper_f_01_c", "bumper_f_01_d", "door_fl_a", "door_fr_a", "fuel_cap", "hood_b", "hood_c", "trunk_a", "trunk_b", "trunk_c", "trunk_d"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\deathrace_ext_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\emperor_ext_01.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"windshield_cover"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\suburban_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\emperor_ext_01.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_chevalier_emperor__basic_suburban_1_2 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"chevalier_emperor__basic_suburban_1_2"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_1_2"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_chevalier_emperor__basic_suburban_1_2";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\suburban_02.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\emperor_ext_01.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_chevalier_emperor__basic_suburban_1_4 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"chevalier_emperor__basic_suburban_1_4"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_1_4"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_chevalier_emperor__basic_suburban_1_4";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\suburban_04.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\emperor_ext_01.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_chevalier_emperor__basic_suburban_1_5 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"chevalier_emperor__basic_suburban_1_5"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_1_5"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_chevalier_emperor__basic_suburban_1_5";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\suburban_05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\emperor_ext_01.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_chevalier_emperor__basic_suburban_1_6 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"chevalier_emperor__basic_suburban_1_6"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_1_6"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_chevalier_emperor__basic_suburban_1_6";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\suburban_06.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\emperor_ext_01.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_chevalier_emperor__basic_urban_1 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"chevalier_emperor__basic_urban_1"
+	];
+	matchingColorVariant = 
+	[
+		"urban_1"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_chevalier_emperor__basic_urban_1";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\urban_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\emperor_ext_01.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_chevalier_emperor__basic_urban_1_3 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"chevalier_emperor__basic_urban_1_3"
+	];
+	matchingColorVariant = 
+	[
+		"urban_1_3"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_chevalier_emperor__basic_urban_1_3";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\urban_03.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\emperor_ext_01.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_chevalier_emperor__basic_urban_1_4 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"chevalier_emperor__basic_urban_1_4"
+	];
+	matchingColorVariant = 
+	[
+		"urban_1_4"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_chevalier_emperor__basic_urban_1_4";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\urban_04.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\emperor_ext_01.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_chevalier_emperor__basic_urban_1_5 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"chevalier_emperor__basic_urban_1_5"
+	];
+	matchingColorVariant = 
+	[
+		"urban_1_5"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_chevalier_emperor__basic_urban_1_5";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\urban_05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\emperor_ext_01.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_chevalier_emperor__basic_urban_1_6 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"chevalier_emperor__basic_urban_1_6"
+	];
+	matchingColorVariant = 
+	[
+		"urban_1_6"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_chevalier_emperor__basic_urban_1_6";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\urban_06.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard3_chevalier_emperor\entities\meshes\textures\emperor_ext_01.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
 VehicleChevalierEmperorAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
 {
 	colorTemplates = 
@@ -1012,16 +1311,8 @@ VehicleChevalierEmperorAppearancesToColorTemplate : VehicleAppearancesToColorTem
 			[
 				50, 50, 50
 			];
-		} : VehicleColorTemplate
+		} : VehicleColorTemplate, 
+		"Vehicle.vcc_paintjob_chevalier_emperor__basic_deathrace_01", "Vehicle.vcc_paintjob_chevalier_emperor__basic_suburban_1_2", "Vehicle.vcc_paintjob_chevalier_emperor__basic_suburban_1_4", "Vehicle.vcc_paintjob_chevalier_emperor__basic_suburban_1_5", "Vehicle.vcc_paintjob_chevalier_emperor__basic_suburban_1_6", "Vehicle.vcc_paintjob_chevalier_emperor__basic_urban_1", "Vehicle.vcc_paintjob_chevalier_emperor__basic_urban_1_3", "Vehicle.vcc_paintjob_chevalier_emperor__basic_urban_1_4", "Vehicle.vcc_paintjob_chevalier_emperor__basic_urban_1_5", "Vehicle.vcc_paintjob_chevalier_emperor__basic_urban_1_6"
 	];
-}
-
-VehicleChevillonEmperorUIData : VehicleDefaultUIData
-{
-	productionYear = "2072-2077";
-	driveLayout = "LocKey#45372";
-	horsepower = 529.0f;
-	mass = 2776.0f;
-	info = "LocKey#53569";
 }
 

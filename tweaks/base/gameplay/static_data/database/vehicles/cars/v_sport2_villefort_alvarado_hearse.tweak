@@ -7,14 +7,6 @@ v_sport2_villefort_alvarado_hearse : v_sport2_villefort_alvarado
 	displayName = "LocKey#94013";
 	vehicleUIData = "Vehicle.VehicleVillefortAlvaradoHearseUIData";
 	twintoneModelName = "villefort.alvarado.hearse";
-	customizationMenuType = "Partner";
-	genericCustomizationMask = "ep1\gameplay\vehicles\visual_customization\car_masks\vcc_villefortbasichearse_color_mask.xbm";
-	excludedComponentsGeneric = 
-	[
-		"wheel_01_fl_a", "wheel_01_fl_b", "wheel_01_fr_a", "wheel_01_fr_b", "wheel_01_bl_a", "wheel_01_br_a"
-	];
-	customizeCarRims = false;
-	customizationPreview = "Vehicle.PreviewGeneric";
 	appearancesToColorTemplate = "Vehicle.VehicleVillefortAlvaradoHearseAppearancesToColorTemplate";
 	destroyedAppearance = "villefort_alvarado_hearse_01_basic_burnt_01";
 	destruction = "Vehicle.VehicleDestructionParamsAlvaradoHearse";
