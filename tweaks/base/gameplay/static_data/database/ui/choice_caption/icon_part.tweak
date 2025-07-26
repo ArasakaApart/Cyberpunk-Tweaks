@@ -659,6 +659,12 @@ CustomPositionIcon : ChoiceCaptionIconPart
 	texturePartID = "ChoiceIcons.CustomPositionIcon";
 }
 
+DelamainTaxiIcon : ChoiceCaptionIconPart
+{
+	enumName = "DelamainTaxi";
+	texturePartID = "ChoiceIcons.DelamainTaxiIcon";
+}
+
 RebuyIcon : ChoiceCaptionIconPart
 {
 	enumName = "Rebuy";

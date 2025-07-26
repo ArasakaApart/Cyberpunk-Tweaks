@@ -12,6 +12,8 @@ v_sportbike2_arch : v_sportbike1_yaiba_kusanagi
 	manufacturer = "Vehicle.Arch";
 	vehicleUIData = "Vehicle.VehicleArchUIData";
 	fk< UIIcon > icon = "UIIcon.arch_nemesis_basic_player_01";
+	twintoneModelName = "arch.nazare";
+	appearancesToColorTemplate = "Vehicle.VehicleArchNazareAppearancesToColorTemplate";
 	destroyedAppearance = "arch_nemesis_basic_burnt_standard_01";
 	vehDataPackage = 
 	{
@@ -351,6 +353,31 @@ VehicleEngineData_Arch : VehicleEngineData_2_Default
 			maxEngineRPM = 6450.f;
 			torqueMultiplier = 0.25f;
 		}
+	];
+}
+
+VehicleArchNazareAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
+{
+	colorTemplates = 
+	[
+		{
+			matchingAppearances = 
+			[
+				"test"
+			];
+			matchingColorVariant = 
+			[
+				"test"
+			];
+			mainColor = 
+			[
+				0, 0, 0
+			];
+			secondaryColor = 
+			[
+				0, 0, 0
+			];
+		} : VehicleColorTemplate
 	];
 }
 

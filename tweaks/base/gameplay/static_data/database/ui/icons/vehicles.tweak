@@ -31,6 +31,12 @@ chevalier_emperor__basic_player_01 : UIIcon
 	CName atlasPartName = "chevalier_emperor__basic_player_01";
 }
 
+chevalier_legatus_aquila : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "chevalier_legatus_aquila_player";
+}
+
 chevalier_thrax__basic_player_01 : UIIcon
 {
 	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
@@ -125,6 +131,12 @@ rayfield_caliburn__basic_player_01 : UIIcon
 {
 	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
 	CName atlasPartName = "rayfield_caliburn__basic_player_01";
+}
+
+rayfield_caliburn__basic_mordred : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "rayfield_caliburn__basic_mordred";
 }
 
 thorton_colby__basic_player_01 : UIIcon
@@ -421,6 +433,102 @@ yaiba_player_03 : UIIcon
 	CName atlasPartName = "yaiba_player_03";
 }
 
+yaiba_muramasa_naked : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_naked";
+}
+
+yaiba_muramasa_naked_as : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_naked_as";
+}
+
+yaiba_muramasa_naked_as_nr : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_naked_as_nr";
+}
+
+yaiba_muramasa_naked_as_ns : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_naked_as_ns";
+}
+
+yaiba_muramasa_naked_as_ns_nr : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_naked_as_ns_nr";
+}
+
+yaiba_muramasa_naked_nr : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_naked_nr";
+}
+
+yaiba_muramasa_naked_ns : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_naked_ns";
+}
+
+yaiba_muramasa_naked_ns_nr : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_naked_ns_nr";
+}
+
+yaiba_muramasa_regular : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_regular";
+}
+
+yaiba_muramasa_regular_as : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_regular_as";
+}
+
+yaiba_muramasa_regular_as_nr : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_regular_as_nr";
+}
+
+yaiba_muramasa_regular_as_ns : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_regular_as_ns";
+}
+
+yaiba_muramasa_regular_as_ns_nr : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_regular_as_ns_nr";
+}
+
+yaiba_muramasa_regular_nr : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_regular_nr";
+}
+
+yaiba_muramasa_regular_ns : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_regular_ns";
+}
+
+yaiba_muramasa_regular_ns_nr : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_muramasa_regular_ns_nr";
+}
+
 thorton_galena_nomad_player_missiles : UIIcon
 {
 	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
@@ -509,5 +617,11 @@ mahir_supron_gt_FS3T : UIIcon
 {
 	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
 	CName atlasPartName = "mahir_supron_gt_FS3T";
+}
+
+yaiba_semimaru : UIIcon
+{
+	atlasResourcePath = "base\gameplay\gui\common\icons\vehicles_icons.inkatlas";
+	CName atlasPartName = "yaiba_semimaru";
 }
 

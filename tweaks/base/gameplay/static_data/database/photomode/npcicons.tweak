@@ -41,14 +41,6 @@ johnnySilverhandNPC : PhotoModeSticker
 	locked = false;
 }
 
-johnnySilverhandAlt : PhotoModeSticker
-{
-	displayName = "Johhny (Alt)";
-	imagePartName = "johnny_silverhand_alt";
-	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas.inkatlas";
-	locked = false;
-}
-
 jackieWelles : PhotoModeSticker
 {
 	displayName = "Jackie";
@@ -85,14 +77,6 @@ rogueAmendiaresold : PhotoModeSticker
 {
 	displayName = "Rogue (Old)";
 	imagePartName = "rogue_old";
-	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas.inkatlas";
-	locked = false;
-}
-
-rogueAmendiaresyoung : PhotoModeSticker
-{
-	displayName = "Rogue (Young)";
-	imagePartName = "rogue_young";
 	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas.inkatlas";
 	locked = false;
 }
@@ -169,9 +153,169 @@ nibbles : PhotoModeSticker
 	locked = false;
 }
 
+ritaWheeler : PhotoModeSticker
+{
+	displayName = "Rita Wheeler";
+	imagePartName = "rita_wheeler";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+cheriNowlin : PhotoModeSticker
+{
+	displayName = "Cheri Nowlin";
+	imagePartName = "cheri_nowlin";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+misty : PhotoModeSticker
+{
+	displayName = "Misty Olszewski";
+	imagePartName = "misty_olszewski";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+claire : PhotoModeSticker
+{
+	displayName = "Claire Russell";
+	imagePartName = "claire_russel";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+dexter : PhotoModeSticker
+{
+	displayName = "Dexter DeShawn";
+	imagePartName = "dexter_deshawn";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+muamar : PhotoModeSticker
+{
+	displayName = "Muamar El Capitán Reyes";
+	imagePartName = "muamar_elcapitan_reyes";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+regina : PhotoModeSticker
+{
+	displayName = "Regina Jones";
+	imagePartName = "regina_jones";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+sebastian : PhotoModeSticker
+{
+	displayName = "Sebastian El Padre Ibarra";
+	imagePartName = "sebastian_elpadre_ibarra";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+dakota : PhotoModeSticker
+{
+	displayName = "Dakota";
+	imagePartName = "dakota_smith";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+wakako : PhotoModeSticker
+{
+	displayName = "Wakako Okada";
+	imagePartName = "wakako_okada";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+ozob : PhotoModeSticker
+{
+	displayName = "Ozob";
+	imagePartName = "ozob_bozo";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+rachel : PhotoModeSticker
+{
+	displayName = "Rachel Casich";
+	imagePartName = "rachel_casich";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+royce : PhotoModeSticker
+{
+	displayName = "Royce";
+	imagePartName = "simon_randall";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+dumdum : PhotoModeSticker
+{
+	displayName = "Dum Dum";
+	imagePartName = "dum_dum";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+dino : PhotoModeSticker
+{
+	displayName = "Dino Dinovic";
+	imagePartName = "dino_dinovic";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+iguana : PhotoModeSticker
+{
+	displayName = "Iguana";
+	imagePartName = "iguana";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+brendan : PhotoModeSticker
+{
+	displayName = "Brendan";
+	imagePartName = "brendan";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+jesse : PhotoModeSticker
+{
+	displayName = "Jesse Johnson";
+	imagePartName = "Jesse";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+garry : PhotoModeSticker
+{
+	displayName = "Garry";
+	imagePartName = "Garry";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+lana : PhotoModeSticker
+{
+	displayName = "Lana Prince";
+	imagePartName = "Lana";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
 solomonReed : PhotoModeSticker
 {
-	displayName = "Reed";
+	displayName = "Solomon Reed";
 	imagePartName = "solomon_reed";
 	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas.inkatlas";
 	locked = false;
@@ -195,9 +339,65 @@ presidentMyers : PhotoModeSticker
 
 kurtHansen : PhotoModeSticker
 {
-	displayName = "Kurt";
+	displayName = "Kurt Hansen";
 	imagePartName = "kurt_hansen";
 	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas.inkatlas";
+	locked = false;
+}
+
+aurore : PhotoModeSticker
+{
+	displayName = "Aurore Cassel";
+	imagePartName = "aurore_cassel";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+lina : PhotoModeSticker
+{
+	displayName = "Lina Malina";
+	imagePartName = "lina_malina";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+alex : PhotoModeSticker
+{
+	displayName = "Alex";
+	imagePartName = "alena_xenakis";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+aymeric : PhotoModeSticker
+{
+	displayName = "Aymeric Cassel";
+	imagePartName = "aymeric_cassel";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+stella : PhotoModeSticker
+{
+	displayName = "Stella Ramos";
+	imagePartName = "stella_ramos";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+wade : PhotoModeSticker
+{
+	displayName = "Wade Bleecker";
+	imagePartName = "wade_bleecker";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
+	locked = false;
+}
+
+dante : PhotoModeSticker
+{
+	displayName = "Dante Caruso";
+	imagePartName = "Dante";
+	atlasName = "base/gameplay/gui/fullscreen/photo_mode/npcs/photomode_npc_icons_atlas_2.inkatlas";
 	locked = false;
 }
 

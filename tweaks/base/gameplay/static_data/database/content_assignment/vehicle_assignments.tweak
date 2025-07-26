@@ -199,6 +199,11 @@ v_standard3_chevalier_emperor_player : Tier2Vehicle
 	overrideValue = 38000;
 }
 
+v_standard3_chevalier_legatus_player : Tier2Vehicle
+{
+	overrideValue = 55000;
+}
+
 v_standard3_thorton_mackinaw_player : Tier4Vehicle
 {
 	overrideValue = 33000;
@@ -207,6 +212,11 @@ v_standard3_thorton_mackinaw_player : Tier4Vehicle
 v_sportbike1_yaiba_kusanagi_player : Tier2Vehicle
 {
 	overrideValue = 66000;
+}
+
+v_sportbike1_yaiba_muramasa_player : Tier3Vehicle
+{
+	overrideValue = 75000;
 }
 
 v_sportbike2_arch_player : Tier5Vehicle

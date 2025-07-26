@@ -778,154 +778,235 @@ VehicleDestructionParamsColby : VehicleDestructionParamsDefault_4w
 	];
 }
 
+VehicleThortonColbyUIData : VehicleDefaultUIData
+{
+	productionYear = "2045-2060";
+	driveLayout = "LocKey#45370";
+	horsepower = 182.0f;
+	mass = 1502.0f;
+	info = "LocKey#53556";
+}
+
+vcc_paintjob_thorton_colby__basic_family_car : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_colby__basic_family_car"
+	];
+	matchingColorVariant = 
+	[
+		"family_car"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_colby__basic_family_car";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_03", "wheel_bl_04", "wheel_br_03", "wheel_br_04", "wheel_fl_03", "wheel_fl_04", "wheel_fr_03", "wheel_fr_04"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\family_car_ext_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\ml_v_standard2_thorton_colby_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_colby__basic_poor_1 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_colby__basic_poor_1"
+	];
+	matchingColorVariant = 
+	[
+		"poor_1"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_colby__basic_poor_1";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_03", "wheel_bl_04", "wheel_br_03", "wheel_br_04", "wheel_fl_03", "wheel_fl_04", "wheel_fr_03", "wheel_fr_04"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\poor_ext_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\ml_v_standard2_thorton_colby_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 1.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_colby__basic_poor_1_1 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_colby__basic_poor_1_1"
+	];
+	matchingColorVariant = 
+	[
+		"poor_1_1"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_colby__basic_poor_1_1";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_03", "wheel_bl_04", "wheel_br_03", "wheel_br_04", "wheel_fl_03", "wheel_fl_04", "wheel_fr_03", "wheel_fr_04"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\poor_ext_02.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\ml_v_standard2_thorton_colby_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 2.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_colby__basic_poor_1_2 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_colby__basic_poor_1_2"
+	];
+	matchingColorVariant = 
+	[
+		"poor_1_2"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_colby__basic_poor_1_2";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_03", "wheel_bl_04", "wheel_br_03", "wheel_br_04", "wheel_fl_03", "wheel_fl_04", "wheel_fr_03", "wheel_fr_04"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\poor_ext_03.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\ml_v_standard2_thorton_colby_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_colby__basic_poor_1_3 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_colby__basic_poor_1_3"
+	];
+	matchingColorVariant = 
+	[
+		"poor_1_3"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_colby__basic_poor_1_3";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_03", "wheel_bl_04", "wheel_br_03", "wheel_br_04", "wheel_fl_03", "wheel_fl_04", "wheel_fr_03", "wheel_fr_04"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\poor_ext_04.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\ml_v_standard2_thorton_colby_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 2.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_colby__basic_poor_1_4 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_colby__basic_poor_1_4"
+	];
+	matchingColorVariant = 
+	[
+		"poor_1_4"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_colby__basic_poor_1_4";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_03", "wheel_bl_04", "wheel_br_03", "wheel_br_04", "wheel_fl_03", "wheel_fl_04", "wheel_fr_03", "wheel_fr_04"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\poor_ext_05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\ml_v_standard2_thorton_colby_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 2.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_colby__basic_suburban_1_4 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_colby__basic_suburban_1_4", "thorton_colby__basic_suburban_2_4"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_1_4", "suburban_2_4"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_colby__basic_suburban_1_4";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_03", "wheel_bl_04", "wheel_br_03", "wheel_br_04", "wheel_fl_03", "wheel_fl_04", "wheel_fr_03", "wheel_fr_04"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\suburban_ext_05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\ml_v_standard2_thorton_colby_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 2.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_thorton_colby__basic_urban_01 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"thorton_colby__basic_urban_01"
+	];
+	matchingColorVariant = 
+	[
+		"urban_01"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_thorton_colby__basic_urban_01";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_03", "wheel_bl_04", "wheel_br_03", "wheel_br_04", "wheel_fl_03", "wheel_fl_04", "wheel_fr_03", "wheel_fr_04"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\urban_ext_02.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_thorton_colby\entities\meshes\textures\ml_v_standard2_thorton_colby_ext01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 3.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
 VehicleThortonColbyBasicAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
 {
 	colorTemplates = 
 	[
-		{
-			matchingAppearances = 
-			[
-				"thorton_colby__basic_poor_1"
-			];
-			matchingColorVariant = 
-			[
-				"poor_1"
-			];
-			mainColor = 
-			[
-				41, 83, 56
-			];
-			secondaryColor = 
-			[
-				50, 50, 50
-			];
-		} : VehicleColorTemplate, 
-		{
-			matchingAppearances = 
-			[
-				"thorton_colby__basic_poor_1_1"
-			];
-			matchingColorVariant = 
-			[
-				"poor_1_1"
-			];
-			mainColor = 
-			[
-				2, 115, 117
-			];
-			secondaryColor = 
-			[
-				50, 50, 50
-			];
-		} : VehicleColorTemplate, 
-		{
-			matchingAppearances = 
-			[
-				"thorton_colby__basic_poor_1_2"
-			];
-			matchingColorVariant = 
-			[
-				"poor_1_2"
-			];
-			mainColor = 
-			[
-				70, 23, 41
-			];
-			secondaryColor = 
-			[
-				50, 50, 50
-			];
-		} : VehicleColorTemplate, 
-		{
-			matchingAppearances = 
-			[
-				"thorton_colby__basic_poor_1_3"
-			];
-			matchingColorVariant = 
-			[
-				"poor_1_3"
-			];
-			mainColor = 
-			[
-				166, 100, 29
-			];
-			secondaryColor = 
-			[
-				50, 50, 50
-			];
-		} : VehicleColorTemplate, 
-		{
-			matchingAppearances = 
-			[
-				"thorton_colby__basic_poor_1_4"
-			];
-			matchingColorVariant = 
-			[
-				"poor_1_4"
-			];
-			mainColor = 
-			[
-				145, 140, 142
-			];
-			secondaryColor = 
-			[
-				50, 50, 50
-			];
-		} : VehicleColorTemplate, 
-		{
-			matchingAppearances = 
-			[
-				"thorton_colby__basic_poor_2"
-			];
-			matchingColorVariant = 
-			[
-				"poor_2"
-			];
-			mainColor = 
-			[
-				41, 83, 56
-			];
-			secondaryColor = 
-			[
-				121, 120, 121
-			];
-		} : VehicleColorTemplate, 
-		{
-			matchingAppearances = 
-			[
-				"thorton_colby__basic_poor_2_2"
-			];
-			matchingColorVariant = 
-			[
-				"poor_2_2"
-			];
-			mainColor = 
-			[
-				166, 100, 29
-			];
-			secondaryColor = 
-			[
-				50, 50, 50
-			];
-		} : VehicleColorTemplate, 
-		{
-			matchingAppearances = 
-			[
-				"thorton_colby__basic_poor_2_4"
-			];
-			matchingColorVariant = 
-			[
-				"poor_2_4"
-			];
-			mainColor = 
-			[
-				49, 48, 52
-			];
-			secondaryColor = 
-			[
-				50, 50, 50
-			];
-		} : VehicleColorTemplate, 
 		{
 			matchingAppearances = 
 			[
@@ -992,24 +1073,6 @@ VehicleThortonColbyBasicAppearancesToColorTemplate : VehicleAppearancesToColorTe
 			mainColor = 
 			[
 				60, 52, 71
-			];
-			secondaryColor = 
-			[
-				55, 55, 60
-			];
-		} : VehicleColorTemplate, 
-		{
-			matchingAppearances = 
-			[
-				"thorton_colby__basic_suburban_1_4"
-			];
-			matchingColorVariant = 
-			[
-				"suburban_1_4"
-			];
-			mainColor = 
-			[
-				92, 162, 121
 			];
 			secondaryColor = 
 			[
@@ -1088,51 +1151,7 @@ VehicleThortonColbyBasicAppearancesToColorTemplate : VehicleAppearancesToColorTe
 				55, 55, 60
 			];
 		} : VehicleColorTemplate, 
-		{
-			matchingAppearances = 
-			[
-				"thorton_colby__basic_suburban_2_4"
-			];
-			matchingColorVariant = 
-			[
-				"suburban_2_4"
-			];
-			mainColor = 
-			[
-				91, 162, 122
-			];
-			secondaryColor = 
-			[
-				55, 55, 60
-			];
-		} : VehicleColorTemplate, 
-		{
-			matchingAppearances = 
-			[
-				"thorton_colby__basic_urban_01"
-			];
-			matchingColorVariant = 
-			[
-				"urban_01"
-			];
-			mainColor = 
-			[
-				60, 126, 195
-			];
-			secondaryColor = 
-			[
-				50, 50, 50
-			];
-		} : VehicleColorTemplate
+		"Vehicle.vcc_paintjob_thorton_colby__basic_family_car", "Vehicle.vcc_paintjob_thorton_colby__basic_poor_1", "Vehicle.vcc_paintjob_thorton_colby__basic_poor_1_1", "Vehicle.vcc_paintjob_thorton_colby__basic_poor_1_2", "Vehicle.vcc_paintjob_thorton_colby__basic_poor_1_3", "Vehicle.vcc_paintjob_thorton_colby__basic_poor_1_4", "Vehicle.vcc_paintjob_thorton_colby__basic_suburban_1_4", "Vehicle.vcc_paintjob_thorton_colby__basic_urban_01"
 	];
-}
-
-VehicleThortonColbyUIData : VehicleDefaultUIData
-{
-	productionYear = "2045-2060";
-	driveLayout = "LocKey#45370";
-	horsepower = 182.0f;
-	mass = 1502.0f;
-	info = "LocKey#53556";
 }
 

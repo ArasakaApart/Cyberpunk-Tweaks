@@ -20,14 +20,6 @@ v_sport2_villefort_alvarado : Vehicle_4w_Default
 	displayName = "LocKey#1619";
 	vehicleUIData = "Vehicle.VehicleVillefortAlvaradoUIData";
 	twintoneModelName = "villefort.alvarado.basic";
-	customizationMenuType = "Partner";
-	genericCustomizationMask = "base\gameplay\vehicles\visual_customization\car_masks\vcc_villefortbasic_color_mask.xbm";
-	excludedComponentsGeneric = 
-	[
-		"wheel_fl_03", "wheel_fl_b_03", "wheel_fl_04", "wheel_fr_03", "wheel_fr_b_03", "wheel_fr_04", "wheel_bl_04", "wheel_br_04", "door_bl_c", "door_br_c"
-	];
-	customizeCarRims = false;
-	customizationPreview = "Vehicle.PreviewGeneric";
 	appearancesToColorTemplate = "Vehicle.VehicleVillefortAlvaradoAppearancesToColorTemplate";
 	fk< UIIcon > icon = "UIIcon.villefort_alvarado__basic_player_01";
 	headlightColor = 
@@ -244,12 +236,6 @@ v_sport2_villefort_alvarado_cabrio : v_sport2_villefort_alvarado
 	];
 	destroyedAppearance = "villefort_alvarado__basic_burnt_cabrio_1";
 	displayName = "LocKey#22092";
-	genericCustomizationMask = "base\gameplay\vehicles\visual_customization\car_masks\vcc_villefort_alvarado_cabrio_color_mask.xbm";
-	excludedComponentsGeneric = 
-	[
-		"wheel_fl_03", "wheel_fl_b_03", "wheel_fl_04", "wheel_fr_03", "wheel_fr_b_03", "wheel_fr_04", "wheel_bl_04", "wheel_br_04"
-	];
-	customizeCarRims = false;
 	vehicleUIData = 
 	{
 		mass = 2359.0f;

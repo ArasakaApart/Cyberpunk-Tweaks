@@ -12,6 +12,8 @@ v_sportbike3_brennan_apollo : v_sportbike1_yaiba_kusanagi
 	manufacturer = "Vehicle.Brennan";
 	destroyedAppearance = "brennan_apollo_basic_burnt_adventure_01";
 	vehicleUIData = "Vehicle.VehicleBrennanApolloiUIData";
+	twintoneModelName = "brennan.apollo";
+	appearancesToColorTemplate = "Vehicle.VehicleBrennanApolloAppearancesToColorTemplate";
 	fk< UIIcon > icon = "UIIcon.brennan_apollo_basic_player_01";
 	string hijackDifficulty = "MEDIUM";
 	vehDataPackage = 
@@ -281,6 +283,31 @@ v_sportbike3_brennan_apollo_kurtz : v_sportbike3_brennan_apollo
 			}
 		];
 	} : VehicleDestructionParamsApollo;
+}
+
+VehicleBrennanApolloAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
+{
+	colorTemplates = 
+	[
+		{
+			matchingAppearances = 
+			[
+				"test"
+			];
+			matchingColorVariant = 
+			[
+				"test"
+			];
+			mainColor = 
+			[
+				0, 0, 0
+			];
+			secondaryColor = 
+			[
+				0, 0, 0
+			];
+		} : VehicleColorTemplate
+	];
 }
 
 VehicleBrennanApolloiUIData : VehicleDefaultUIData

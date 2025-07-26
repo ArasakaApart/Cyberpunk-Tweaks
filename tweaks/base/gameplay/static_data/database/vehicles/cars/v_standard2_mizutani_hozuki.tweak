@@ -16,6 +16,8 @@ v_standard2_mizutani_hozuki : Vehicle_4w_Default
 	];
 	displayName = "LocKey#94014";
 	vehicleUIData = "Vehicle.VehicleMizutaniHozukiUIData";
+	twintoneModelName = "mizutani.hozuki";
+	appearancesToColorTemplate = "Vehicle.VehicleMizutaniHozukiAppearancesToColorTemplate";
 	headlightColor = 
 	[
 		255, 240, 200, 255
@@ -905,5 +907,841 @@ VehicleMizutaniHozukiUIData : VehicleDefaultUIData
 	horsepower = 180.0f;
 	mass = 1481.0f;
 	info = "LocKey#94016";
+}
+
+vcc_paintjob_mizutani_hozuki__basic_suburban_01 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mizutani_hozuki__basic_suburban_01"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_01"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mizutani_hozuki__basic_suburban_01";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_suburban_01.mlsetup";
+			customMlMask = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 0.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mizutani_hozuki__basic_suburban_03 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mizutani_hozuki__basic_suburban_03"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_03"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mizutani_hozuki__basic_suburban_03";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_suburban_03.mlsetup";
+			customMlMask = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 0.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mizutani_hozuki__basic_suburban_04 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mizutani_hozuki__basic_suburban_04"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_04"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mizutani_hozuki__basic_suburban_04";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_suburban_04.mlsetup";
+			customMlMask = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 0.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mizutani_hozuki__basic_suburban_07 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mizutani_hozuki__basic_suburban_07"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_07"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mizutani_hozuki__basic_suburban_07";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_suburban_07.mlsetup";
+			customMlMask = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 0.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mizutani_hozuki__basic_suburban_08 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mizutani_hozuki__basic_suburban_08"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_08"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mizutani_hozuki__basic_suburban_08";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_suburban_08.mlsetup";
+			customMlMask = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 0.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mizutani_hozuki__basic_suburban_10 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mizutani_hozuki__basic_suburban_10"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_10"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mizutani_hozuki__basic_suburban_10";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_suburban_10.mlsetup";
+			customMlMask = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 0.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mizutani_hozuki__basic_urban_02 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mizutani_hozuki__basic_urban_02"
+	];
+	matchingColorVariant = 
+	[
+		"urban_02"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mizutani_hozuki__basic_urban_02";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_urban_02.mlsetup";
+			customMlMask = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 4.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mizutani_hozuki__basic_urban_03 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mizutani_hozuki__basic_urban_03"
+	];
+	matchingColorVariant = 
+	[
+		"urban_03"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mizutani_hozuki__basic_urban_03";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_urban_03.mlsetup";
+			customMlMask = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 0.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mizutani_hozuki__basic_urban_04 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mizutani_hozuki__basic_urban_04"
+	];
+	matchingColorVariant = 
+	[
+		"urban_04"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mizutani_hozuki__basic_urban_04";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_urban_04.mlsetup";
+			customMlMask = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 0.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mizutani_hozuki__basic_urban_06 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mizutani_hozuki__basic_urban_06"
+	];
+	matchingColorVariant = 
+	[
+		"urban_06"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mizutani_hozuki__basic_urban_06";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_urban_06.mlsetup";
+			customMlMask = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 0.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mizutani_hozuki__basic_urban_07 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mizutani_hozuki__basic_urban_07"
+	];
+	matchingColorVariant = 
+	[
+		"urban_07"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mizutani_hozuki__basic_urban_07";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_urban_07.mlsetup";
+			customMlMask = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 4.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mizutani_hozuki__basic_urban_08 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mizutani_hozuki__basic_urban_08"
+	];
+	matchingColorVariant = 
+	[
+		"urban_08"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mizutani_hozuki__basic_urban_08";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_urban_08.mlsetup";
+			customMlMask = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 0.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mizutani_hozuki__basic_urban_09 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mizutani_hozuki__basic_urban_09"
+	];
+	matchingColorVariant = 
+	[
+		"urban_09"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mizutani_hozuki__basic_urban_09";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_urban_09.mlsetup";
+			customMlMask = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 0.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_mizutani_hozuki__basic_web_01 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"mizutani_hozuki__basic_web_01"
+	];
+	matchingColorVariant = 
+	[
+		"web_01"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_mizutani_hozuki__basic_web_01";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_br_a", "wheel_01_fl_a", "wheel_01_fr_a"
+			];
+			customMlSetup = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_suburban_05.mlsetup";
+			customMlMask = "ep1\vehicles\standard\v_standard2_mizutani_hozuki\entities\meshes\textures\ext_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 0.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+VehicleMizutaniHozukiAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
+{
+	colorTemplates = 
+	[
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_01"
+			];
+			matchingColorVariant = 
+			[
+				"poor_01"
+			];
+			mainColor = 
+			[
+				58, 64, 88
+			];
+			secondaryColor = 
+			[
+				76, 69, 64
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_02"
+			];
+			matchingColorVariant = 
+			[
+				"poor_02"
+			];
+			mainColor = 
+			[
+				158, 176, 197
+			];
+			secondaryColor = 
+			[
+				76, 75, 77
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_03"
+			];
+			matchingColorVariant = 
+			[
+				"poor_03"
+			];
+			mainColor = 
+			[
+				109, 123, 152
+			];
+			secondaryColor = 
+			[
+				75, 74, 74
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_04"
+			];
+			matchingColorVariant = 
+			[
+				"poor_04"
+			];
+			mainColor = 
+			[
+				143, 128, 113
+			];
+			secondaryColor = 
+			[
+				158, 175, 196
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_05"
+			];
+			matchingColorVariant = 
+			[
+				"poor_05"
+			];
+			mainColor = 
+			[
+				137, 135, 114
+			];
+			secondaryColor = 
+			[
+				76, 74, 75
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_06"
+			];
+			matchingColorVariant = 
+			[
+				"poor_06"
+			];
+			mainColor = 
+			[
+				88, 64, 62
+			];
+			secondaryColor = 
+			[
+				78, 70, 68
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_07"
+			];
+			matchingColorVariant = 
+			[
+				"poor_07"
+			];
+			mainColor = 
+			[
+				90, 159, 119
+			];
+			secondaryColor = 
+			[
+				194, 193, 191
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_08"
+			];
+			matchingColorVariant = 
+			[
+				"poor_08"
+			];
+			mainColor = 
+			[
+				82, 92, 82
+			];
+			secondaryColor = 
+			[
+				73, 67, 62
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_09"
+			];
+			matchingColorVariant = 
+			[
+				"poor_09"
+			];
+			mainColor = 
+			[
+				110, 130, 106
+			];
+			secondaryColor = 
+			[
+				74, 73, 74
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_10"
+			];
+			matchingColorVariant = 
+			[
+				"poor_10"
+			];
+			mainColor = 
+			[
+				166, 135, 131
+			];
+			secondaryColor = 
+			[
+				78, 76, 77
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_11"
+			];
+			matchingColorVariant = 
+			[
+				"poor_11"
+			];
+			mainColor = 
+			[
+				115, 93, 93
+			];
+			secondaryColor = 
+			[
+				73, 73, 74
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_12"
+			];
+			matchingColorVariant = 
+			[
+				"poor_12"
+			];
+			mainColor = 
+			[
+				97, 85, 101
+			];
+			secondaryColor = 
+			[
+				74, 67, 64
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_13"
+			];
+			matchingColorVariant = 
+			[
+				"poor_13"
+			];
+			mainColor = 
+			[
+				104, 104, 102
+			];
+			secondaryColor = 
+			[
+				63, 62, 62
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_14"
+			];
+			matchingColorVariant = 
+			[
+				"poor_14"
+			];
+			mainColor = 
+			[
+				67, 62, 64
+			];
+			secondaryColor = 
+			[
+				84, 85, 84
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_15"
+			];
+			matchingColorVariant = 
+			[
+				"poor_15"
+			];
+			mainColor = 
+			[
+				179, 165, 116
+			];
+			secondaryColor = 
+			[
+				93, 91, 85
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_junk_01"
+			];
+			matchingColorVariant = 
+			[
+				"poor_junk_01"
+			];
+			mainColor = 
+			[
+				91, 162, 121
+			];
+			secondaryColor = 
+			[
+				204, 203, 204
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_junk_02"
+			];
+			matchingColorVariant = 
+			[
+				"poor_junk_02"
+			];
+			mainColor = 
+			[
+				142, 128, 111
+			];
+			secondaryColor = 
+			[
+				154, 171, 191
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_junk_03"
+			];
+			matchingColorVariant = 
+			[
+				"poor_junk_03"
+			];
+			mainColor = 
+			[
+				153, 170, 190
+			];
+			secondaryColor = 
+			[
+				76, 76, 77
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_poor_junk_04"
+			];
+			matchingColorVariant = 
+			[
+				"poor_junk_04"
+			];
+			mainColor = 
+			[
+				108, 123, 153
+			];
+			secondaryColor = 
+			[
+				77, 75, 76
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_suburban_02"
+			];
+			matchingColorVariant = 
+			[
+				"suburban_02"
+			];
+			mainColor = 
+			[
+				107, 123, 93
+			];
+			secondaryColor = 
+			[
+				97, 75, 67
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_suburban_05"
+			];
+			matchingColorVariant = 
+			[
+				"suburban_05"
+			];
+			mainColor = 
+			[
+				78, 78, 110
+			];
+			secondaryColor = 
+			[
+				94, 74, 75
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_suburban_06"
+			];
+			matchingColorVariant = 
+			[
+				"suburban_06"
+			];
+			mainColor = 
+			[
+				201, 178, 112
+			];
+			secondaryColor = 
+			[
+				103, 96, 111
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_suburban_09"
+			];
+			matchingColorVariant = 
+			[
+				"suburban_09"
+			];
+			mainColor = 
+			[
+				75, 110, 142
+			];
+			secondaryColor = 
+			[
+				88, 86, 88
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_urban_01"
+			];
+			matchingColorVariant = 
+			[
+				"urban_01"
+			];
+			mainColor = 
+			[
+				99, 36, 60
+			];
+			secondaryColor = 
+			[
+				54, 58, 60
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"mizutani_hozuki__basic_urban_10"
+			];
+			matchingColorVariant = 
+			[
+				"urban_10"
+			];
+			mainColor = 
+			[
+				134, 131, 132
+			];
+			secondaryColor = 
+			[
+				54, 52, 53
+			];
+		} : VehicleColorTemplate, 
+		"Vehicle.vcc_paintjob_mizutani_hozuki__basic_suburban_01", "Vehicle.vcc_paintjob_mizutani_hozuki__basic_suburban_03", "Vehicle.vcc_paintjob_mizutani_hozuki__basic_suburban_04", "Vehicle.vcc_paintjob_mizutani_hozuki__basic_suburban_07", "Vehicle.vcc_paintjob_mizutani_hozuki__basic_suburban_08", "Vehicle.vcc_paintjob_mizutani_hozuki__basic_suburban_10", "Vehicle.vcc_paintjob_mizutani_hozuki__basic_urban_02", "Vehicle.vcc_paintjob_mizutani_hozuki__basic_urban_03", "Vehicle.vcc_paintjob_mizutani_hozuki__basic_urban_04", "Vehicle.vcc_paintjob_mizutani_hozuki__basic_urban_06", "Vehicle.vcc_paintjob_mizutani_hozuki__basic_urban_07", "Vehicle.vcc_paintjob_mizutani_hozuki__basic_urban_08", "Vehicle.vcc_paintjob_mizutani_hozuki__basic_urban_09", "Vehicle.vcc_paintjob_mizutani_hozuki__basic_web_01"
+	];
 }
 

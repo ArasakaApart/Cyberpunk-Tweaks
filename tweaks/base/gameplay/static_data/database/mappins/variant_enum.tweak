@@ -570,6 +570,16 @@ CustomPositionVariant : MappinVariant
 	CName enumName = "CustomPositionVariant";
 }
 
+DelamainTaxiVariant : MappinVariant
+{
+	CName enumName = "Zzz19_DelamainTaxiVariant";
+}
+
+DelamainTaxiDestinationVariant : MappinVariant
+{
+	CName enumName = "Zzz20_DelamainTaxiDestinationVariant";
+}
+
 InvalidVariant : MappinVariant
 {
 	CName enumName = "InvalidVariant";

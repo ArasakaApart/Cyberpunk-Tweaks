@@ -19,6 +19,8 @@ v_standard2_makigai_maimai : Vehicle_4w_Default
 	];
 	manufacturer = "Vehicle.Makigai";
 	vehicleUIData = "Vehicle.VehicleMakigaiMaimaiUIData";
+	twintoneModelName = "makigai.maimai";
+	appearancesToColorTemplate = "Vehicle.VehicleMakigaiMaimaiAppearancesToColorTemplate";
 	fk< UIIcon > icon = "UIIcon.makigai_maimai__basic_player_01";
 	headlightColor = 
 	[
@@ -804,5 +806,509 @@ VehicleMakigaiMaimaiUIData : VehicleDefaultUIData
 	horsepower = 70.0f;
 	mass = 880.0f;
 	info = "LocKey#53552";
+}
+
+vcc_paintjob_makigai_maimai__basic_gt_01 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"makigai_maimai__basic_gt_01"
+	];
+	matchingColorVariant = 
+	[
+		"gt_01"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_makigai_maimai__basic_gt_01";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_02", "wheel_br_02", "wheel_fl_02", "wheel_fr_02", "bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_urban_05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_exterior_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__urban_05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__urban_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_makigai_maimai__basic_poor_02 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"makigai_maimai__basic_poor_02"
+	];
+	matchingColorVariant = 
+	[
+		"poor_02"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_makigai_maimai__basic_poor_02";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_02", "wheel_br_02", "wheel_fl_02", "wheel_fr_02", "bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_exterior_poor_02.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_exterior_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__poor_02.mlsetup";
+			customMlMask = "base\gameplay\vehicles\visual_customization\unique_mlmasks\thorton_mackinaw_basic\vcc_makigai_maimai__basic_player_01__urban_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_makigai_maimai__basic_suburban_01 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"makigai_maimai__basic_suburban_01"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_01"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_makigai_maimai__basic_suburban_01";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_02", "wheel_br_02", "wheel_fl_02", "wheel_fr_02", "bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_suburban_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_exterior_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__suburban_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__urban_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_makigai_maimai__basic_suburban_03 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"makigai_maimai__basic_suburban_03"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_03"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_makigai_maimai__basic_suburban_03";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_02", "wheel_br_02", "wheel_fl_02", "wheel_fr_02", "bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_suburban_03.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_exterior_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__suburban_03.mlsetup";
+			customMlMask = "base\gameplay\vehicles\visual_customization\unique_mlmasks\thorton_mackinaw_basic\vcc_makigai_maimai__basic_player_01__urban_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_makigai_maimai__basic_suburban_06 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"makigai_maimai__basic_suburban_06"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_06"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_makigai_maimai__basic_suburban_06";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_02", "wheel_br_02", "wheel_fl_02", "wheel_fr_02", "bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_suburban_06.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_exterior_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__suburban_06.mlsetup";
+			customMlMask = "base\gameplay\vehicles\visual_customization\unique_mlmasks\thorton_mackinaw_basic\vcc_makigai_maimai__basic_player_01__urban_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_makigai_maimai__basic_suburban_07 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"makigai_maimai__basic_suburban_07"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_07"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_makigai_maimai__basic_suburban_07";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_02", "wheel_br_02", "wheel_fl_02", "wheel_fr_02", "bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_suburban_07.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_exterior_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__suburban_07.mlsetup";
+			customMlMask = "base\gameplay\vehicles\visual_customization\unique_mlmasks\thorton_mackinaw_basic\vcc_makigai_maimai__basic_player_01__urban_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_makigai_maimai__basic_urban_01 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"makigai_maimai__basic_urban_01"
+	];
+	matchingColorVariant = 
+	[
+		"urban_01"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_makigai_maimai__basic_urban_01";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_02", "wheel_br_02", "wheel_fl_02", "wheel_fr_02", "bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_urban_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_exterior_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__urban_01.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__urban_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_makigai_maimai__basic_urban_02 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"makigai_maimai__basic_urban_02", "makigai_maimai__basic_suburban_02"
+	];
+	matchingColorVariant = 
+	[
+		"urban_02", "suburban_02"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_makigai_maimai__basic_urban_02";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_02", "wheel_br_02", "wheel_fl_02", "wheel_fr_02", "bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_urban_02.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_exterior_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__urban_02.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__urban_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_makigai_maimai__basic_urban_03 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"makigai_maimai__basic_urban_03", "makigai_maimai__basic_suburban_05"
+	];
+	matchingColorVariant = 
+	[
+		"urban_03", "suburban_05"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_makigai_maimai__basic_urban_03";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_02", "wheel_br_02", "wheel_fl_02", "wheel_fr_02", "bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_urban_03.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_exterior_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__urban_03.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__urban_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_makigai_maimai__basic_urban_05 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"makigai_maimai__basic_urban_05"
+	];
+	matchingColorVariant = 
+	[
+		"urban_05"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_makigai_maimai__basic_urban_05";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_bl_02", "wheel_br_02", "wheel_fl_02", "wheel_fr_02", "bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_urban_05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_exterior_poor_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer, 
+		{
+			affectedComponents = 
+			[
+				"bumper_b_01", "bumper_f_01", "hood_a", "trunk_a"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__urban_05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_makigai_maimai\entities\meshes\textures\maimai_ext_02__urban_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 21.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+VehicleMakigaiMaimaiAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
+{
+	colorTemplates = 
+	[
+		{
+			matchingAppearances = 
+			[
+				"makigai_maimai__basic_poor_01"
+			];
+			matchingColorVariant = 
+			[
+				"poor_01"
+			];
+			mainColor = 
+			[
+				101, 119, 94
+			];
+			secondaryColor = 
+			[
+				59, 58, 69
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"makigai_maimai__basic_poor_03"
+			];
+			matchingColorVariant = 
+			[
+				"poor_03"
+			];
+			mainColor = 
+			[
+				82, 92, 82
+			];
+			secondaryColor = 
+			[
+				60, 58, 59
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"makigai_maimai__basic_poor_04"
+			];
+			matchingColorVariant = 
+			[
+				"poor_04"
+			];
+			mainColor = 
+			[
+				116, 117, 117
+			];
+			secondaryColor = 
+			[
+				123, 122, 71
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"makigai_maimai__basic_poor_05"
+			];
+			matchingColorVariant = 
+			[
+				"poor_05"
+			];
+			mainColor = 
+			[
+				153, 151, 127
+			];
+			secondaryColor = 
+			[
+				59, 59, 69
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"makigai_maimai__basic_poor_06"
+			];
+			matchingColorVariant = 
+			[
+				"poor_06"
+			];
+			mainColor = 
+			[
+				100, 39, 40
+			];
+			secondaryColor = 
+			[
+				139, 188, 29
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"makigai_maimai__basic_poor_07"
+			];
+			matchingColorVariant = 
+			[
+				"poor_07"
+			];
+			mainColor = 
+			[
+				67, 62, 63
+			];
+			secondaryColor = 
+			[
+				139, 188, 29
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"makigai_maimai__basic_suburban_04"
+			];
+			matchingColorVariant = 
+			[
+				"suburban_04"
+			];
+			mainColor = 
+			[
+				137, 52, 53
+			];
+			secondaryColor = 
+			[
+				59, 58, 59
+			];
+		} : VehicleColorTemplate, 
+		"Vehicle.vcc_paintjob_makigai_maimai__basic_gt_01", "Vehicle.vcc_paintjob_makigai_maimai__basic_poor_02", "Vehicle.vcc_paintjob_makigai_maimai__basic_suburban_01", "Vehicle.vcc_paintjob_makigai_maimai__basic_suburban_03", "Vehicle.vcc_paintjob_makigai_maimai__basic_suburban_06", "Vehicle.vcc_paintjob_makigai_maimai__basic_suburban_07", "Vehicle.vcc_paintjob_makigai_maimai__basic_urban_01", "Vehicle.vcc_paintjob_makigai_maimai__basic_urban_02", "Vehicle.vcc_paintjob_makigai_maimai__basic_urban_03", "Vehicle.vcc_paintjob_makigai_maimai__basic_urban_05"
+	];
 }
 

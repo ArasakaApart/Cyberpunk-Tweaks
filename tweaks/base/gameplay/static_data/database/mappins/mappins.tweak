@@ -110,7 +110,7 @@ QuestDynamicMappinDefinition : MappinDefinition
 	bool showInWorld = true;
 	fk< MappinVariant >[] possibleVariants = 
 	[
-		"Mappins.DefaultQuestVariant", "Mappins.QuestGiverVariant", "Mappins.SpeechVariant", "Mappins.CallVariant", "Mappins.ArrowVariant", "Mappins.HandVariant", "Mappins.LootVariant", "Mappins.SoloVariant", "Mappins.NetrunnerVariant", "Mappins.NetrunnerAccessPointVariant", "Mappins.TechieVariant", "Mappins.DefaultInteractionVariant", "Mappins.GPSPortalVariant", "Mappins.GPSForcedPathVariant", "Mappins.ConversationVariant", "Mappins.CyberspaceObject", "Mappins.CyberspaceNPC", "Mappins.VehicleVariant", "Mappins.MotorcycleVariant", "Mappins.PointOfInterest_ExclamationMarkVariant", "Mappins.CarForPurchaseVariant", "Mappins.MotorcycleForPurchaseVariant", "Mappins.PointOfInterest_HuntForPsychoVariant", "Mappins.PointOfInterest_MinorActivityVariant", "Mappins.NCPDGigVariant"
+		"Mappins.DefaultQuestVariant", "Mappins.QuestGiverVariant", "Mappins.SpeechVariant", "Mappins.CallVariant", "Mappins.ArrowVariant", "Mappins.HandVariant", "Mappins.LootVariant", "Mappins.SoloVariant", "Mappins.NetrunnerVariant", "Mappins.NetrunnerAccessPointVariant", "Mappins.TechieVariant", "Mappins.DefaultInteractionVariant", "Mappins.GPSPortalVariant", "Mappins.GPSForcedPathVariant", "Mappins.ConversationVariant", "Mappins.CyberspaceObject", "Mappins.CyberspaceNPC", "Mappins.VehicleVariant", "Mappins.MotorcycleVariant", "Mappins.PointOfInterest_ExclamationMarkVariant", "Mappins.CarForPurchaseVariant", "Mappins.MotorcycleForPurchaseVariant", "Mappins.PointOfInterest_HuntForPsychoVariant", "Mappins.PointOfInterest_MinorActivityVariant", "Mappins.NCPDGigVariant", "Mappins.DelamainTaxiVariant"
 	];
 	float visibilityRange = 0;
 }
@@ -183,6 +183,30 @@ CustomPositionMappinDefinition : MappinDefinition
 	fk< MappinVariant >[] possibleVariants = 
 	[
 		"Mappins.CustomPositionVariant"
+	];
+	float visibilityRange = 0;
+}
+
+DelamainTaxiMappinDefinition : MappinDefinition
+{
+	bool showOnMinimap = true;
+	bool showOnMap = true;
+	bool showInWorld = true;
+	fk< MappinVariant >[] possibleVariants = 
+	[
+		"Mappins.DelamainTaxiVariant"
+	];
+	float visibilityRange = 0;
+}
+
+DelamainTaxiDestinationMappinDefinition : MappinDefinition
+{
+	bool showOnMinimap = true;
+	bool showOnMap = true;
+	bool showInWorld = false;
+	fk< MappinVariant >[] possibleVariants = 
+	[
+		"Mappins.DelamainTaxiDestinationVariant"
 	];
 	float visibilityRange = 0;
 }

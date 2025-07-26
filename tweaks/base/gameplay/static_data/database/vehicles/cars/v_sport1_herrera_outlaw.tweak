@@ -20,14 +20,6 @@ v_sport1_herrera_outlaw : Vehicle_4w_Default
 	displayName = "LocKey#22086";
 	vehicleUIData = "Vehicle.VehicleHerreraOutlawUIData";
 	twintoneModelName = "herrera.outlaw";
-	customizationMenuType = "Partner";
-	genericCustomizationMask = "base\gameplay\vehicles\visual_customization\car_masks\vcc_herreraoutlawbasic_color_mask.xbm";
-	excludedComponentsGeneric = 
-	[
-		"wheel_01_fl_a", "wheel_01_fr_a", "wheel_01_bl_a", "wheel_01_br_a"
-	];
-	customizeCarRims = false;
-	customizationPreview = "Vehicle.PreviewGeneric";
 	appearancesToColorTemplate = "Vehicle.VehicleHerreraOutlawAppearancesToColorTemplate";
 	fk< UIIcon > icon = "UIIcon.herrera_outlaw__basic_player_01";
 	destroyedAppearance = "herrera_outlaw__basic_burnt_01";
@@ -145,12 +137,6 @@ v_sport1_herrera_outlaw_heist : v_sport1_herrera_outlaw
 		"DisableTireShooting"
 	];
 	displayName = "LocKey#94022";
-	genericCustomizationMask = "base\gameplay\vehicles\visual_customization\car_masks\vcc_herreraoutlawbasic_color_mask.xbm";
-	excludedComponentsGeneric = 
-	[
-		"wheel_01_fl_a", "wheel_01_fr_a", "wheel_01_bl_a", "wheel_01_br_a", "wheel_cortes_fl", "wheel_cortes_fr", "wheel_cortes_bl", "wheel_cortes_br", "wheel_hellhound_fl", "wheel_hellhound_fr", "wheel_riptide_bl", "wheel_riptide_br"
-	];
-	customizeCarRims = false;
 	fk< UIIcon > icon = "UIIcon.herrera_outlaw_heist_player";
 	statModifierGroups = 
 	[

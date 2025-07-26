@@ -56,6 +56,7 @@ ControlledLootSet
 	bool blocksFromNPCs = true;
 	bool dropsInContainers = true;
 	bool blocksInContainers = true;
+	bool rollBackCounterWhenLootIsDestroyed = false;
 	fk< ContainerType >[] excludedContainerTypes = 
 	[
 		"Loot.ShardCaseContainer", "Loot.QuestContainer"

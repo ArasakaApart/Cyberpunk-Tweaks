@@ -16,6 +16,8 @@ v_standard2_villefort_cortes : Vehicle_4w_Default
 	destroyedAppearance = "villefort_cortes__basic_burnt_01";
 	displayName = "LocKey#1613";
 	vehicleUIData = "Vehicle.VehicleVillefortCortesUIData";
+	twintoneModelName = "villefort.cortes";
+	appearancesToColorTemplate = "Vehicle.VehicleVillefortCortesAppearancesToColorTemplate";
 	fk< UIIcon > icon = "UIIcon.villefort_cortes__basic_player_01";
 	headlightColor = 
 	[
@@ -1043,6 +1045,464 @@ VehicleDestructionParamsCortes : VehicleDestructionParamsDefault_4w
 				}
 			];
 		}
+	];
+}
+
+vcc_paintjob_villefort_cortes__basic_poor_1_06 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"villefort_cortes__basic_poor_1_06"
+	];
+	matchingColorVariant = 
+	[
+		"poor_1_06"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_villefort_cortes__basic_poor_1_06";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_bl_center", "wheel_01_br_a", "wheel_01_br_center", "wheel_01_fl_a", "wheel_01_fl_center", "wheel_01_fr_a", "wheel_01_fr_center"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\cortes_poor_ext06.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\ml_v_standard2_villefort_cortes_exterior_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 2.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_villefort_cortes__basic_suburban_1_02 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"villefort_cortes__basic_suburban_1_02"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_1_02"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_villefort_cortes__basic_suburban_1_02";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_bl_center", "wheel_01_br_a", "wheel_01_br_center", "wheel_01_fl_a", "wheel_01_fl_center", "wheel_01_fr_a", "wheel_01_fr_center"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\cortes_suburban_ext02.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\ml_v_standard2_villefort_cortes_exterior_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 2.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_villefort_cortes__basic_suburban_1_03 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"villefort_cortes__basic_suburban_1_03"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_1_03"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_villefort_cortes__basic_suburban_1_03";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_bl_center", "wheel_01_br_a", "wheel_01_br_center", "wheel_01_fl_a", "wheel_01_fl_center", "wheel_01_fr_a", "wheel_01_fr_center"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\cortes_suburban_ext03.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\ml_v_standard2_villefort_cortes_exterior_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 2.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_villefort_cortes__basic_suburban_1_05 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"villefort_cortes__basic_suburban_1_05"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_1_05"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_villefort_cortes__basic_suburban_1_05";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_bl_center", "wheel_01_br_a", "wheel_01_br_center", "wheel_01_fl_a", "wheel_01_fl_center", "wheel_01_fr_a", "wheel_01_fr_center"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\cortes_suburban_ext05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\ml_v_standard2_villefort_cortes_exterior_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 2.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_villefort_cortes__basic_suburban_1_07 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"villefort_cortes__basic_suburban_1_07"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_1_07"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_villefort_cortes__basic_suburban_1_07";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_bl_center", "wheel_01_br_a", "wheel_01_br_center", "wheel_01_fl_a", "wheel_01_fl_center", "wheel_01_fr_a", "wheel_01_fr_center"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\cortes_suburban_ext07.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\ml_v_standard2_villefort_cortes_exterior_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 2.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_villefort_cortes__basic_suburban_1_08 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"villefort_cortes__basic_suburban_1_08"
+	];
+	matchingColorVariant = 
+	[
+		"suburban_1_08"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_villefort_cortes__basic_suburban_1_08";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_bl_center", "wheel_01_br_a", "wheel_01_br_center", "wheel_01_fl_a", "wheel_01_fl_center", "wheel_01_fr_a", "wheel_01_fr_center"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\cortes_suburban_ext08.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\ml_v_standard2_villefort_cortes_exterior_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 2.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_villefort_cortes__basic_urban_1_02 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"villefort_cortes__basic_urban_1_02"
+	];
+	matchingColorVariant = 
+	[
+		"urban_1_02"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_villefort_cortes__basic_urban_1_02";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_bl_center", "wheel_01_br_a", "wheel_01_br_center", "wheel_01_fl_a", "wheel_01_fl_center", "wheel_01_fr_a", "wheel_01_fr_center"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\cortes_urban_ext02.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\ml_v_standard2_villefort_cortes_exterior_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 2.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_villefort_cortes__basic_urban_1_03 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"villefort_cortes__basic_urban_1_03"
+	];
+	matchingColorVariant = 
+	[
+		"urban_1_03"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_villefort_cortes__basic_urban_1_03";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_bl_center", "wheel_01_br_a", "wheel_01_br_center", "wheel_01_fl_a", "wheel_01_fl_center", "wheel_01_fr_a", "wheel_01_fr_center"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\cortes_urban_ext03.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\ml_v_standard2_villefort_cortes_exterior_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 2.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_villefort_cortes__basic_urban_1_04 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"villefort_cortes__basic_urban_1_04"
+	];
+	matchingColorVariant = 
+	[
+		"urban_1_04"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_villefort_cortes__basic_urban_1_04";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_bl_center", "wheel_01_br_a", "wheel_01_br_center", "wheel_01_fl_a", "wheel_01_fl_center", "wheel_01_fr_a", "wheel_01_fr_center"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\cortes_urban_ext04.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\ml_v_standard2_villefort_cortes_exterior_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 2.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+vcc_paintjob_villefort_cortes__basic_urban_1_05 : VehicleColorTemplate
+{
+	matchingAppearances = 
+	[
+		"villefort_cortes__basic_urban_1_05"
+	];
+	matchingColorVariant = 
+	[
+		"urban_1_05"
+	];
+	hasCustomPattern = true;
+	customIcon = "UIIcon.vcc_icons_villefort_cortes__basic_urban_1_05";
+	customMultilayers = 
+	[
+		{
+			excludedComponents = 
+			[
+				"wheel_01_bl_a", "wheel_01_bl_center", "wheel_01_br_a", "wheel_01_br_center", "wheel_01_fl_a", "wheel_01_fl_center", "wheel_01_fr_a", "wheel_01_fr_center"
+			];
+			customMlSetup = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\cortes_urban_ext05.mlsetup";
+			customMlMask = "base\vehicles\standard\v_standard2_villefort_cortes\entities\meshes\textures\ml_v_standard2_villefort_cortes_exterior_01_masksset.mlmask";
+			coatLayerMin = -1.0f;
+			coatLayerMax = 2.0f;
+		} : VehicleCustomMultilayer
+	];
+}
+
+VehicleVillefortCortesAppearancesToColorTemplate : VehicleAppearancesToColorTemplate
+{
+	colorTemplates = 
+	[
+		{
+			matchingAppearances = 
+			[
+				"villefort_cortes__basic_mafia_01"
+			];
+			matchingColorVariant = 
+			[
+				"mafia_01"
+			];
+			mainColor = 
+			[
+				66, 63, 63
+			];
+			secondaryColor = 
+			[
+				66, 63, 63
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"villefort_cortes__basic_poor_1_01"
+			];
+			matchingColorVariant = 
+			[
+				"poor_1_01"
+			];
+			mainColor = 
+			[
+				96, 121, 123
+			];
+			secondaryColor = 
+			[
+				52, 51, 52
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"villefort_cortes__basic_poor_1_02"
+			];
+			matchingColorVariant = 
+			[
+				"poor_1_02"
+			];
+			mainColor = 
+			[
+				83, 52, 63
+			];
+			secondaryColor = 
+			[
+				113, 100, 87
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"villefort_cortes__basic_poor_1_03"
+			];
+			matchingColorVariant = 
+			[
+				"poor_1_03"
+			];
+			mainColor = 
+			[
+				132, 119, 90
+			];
+			secondaryColor = 
+			[
+				113, 100, 87
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"villefort_cortes__basic_poor_1_04"
+			];
+			matchingColorVariant = 
+			[
+				"poor_1_04"
+			];
+			mainColor = 
+			[
+				108, 88, 81
+			];
+			secondaryColor = 
+			[
+				113, 100, 87
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"villefort_cortes__basic_poor_1_05"
+			];
+			matchingColorVariant = 
+			[
+				"poor_1_05"
+			];
+			mainColor = 
+			[
+				73, 79, 94
+			];
+			secondaryColor = 
+			[
+				134, 128, 121
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"villefort_cortes__basic_suburban_1_01"
+			];
+			matchingColorVariant = 
+			[
+				"suburban_1_01"
+			];
+			mainColor = 
+			[
+				226, 209, 154
+			];
+			secondaryColor = 
+			[
+				196, 188, 180
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"villefort_cortes__basic_suburban_1_04"
+			];
+			matchingColorVariant = 
+			[
+				"suburban_1_04"
+			];
+			mainColor = 
+			[
+				109, 88, 79
+			];
+			secondaryColor = 
+			[
+				108, 70, 51
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"villefort_cortes__basic_suburban_1_06"
+			];
+			matchingColorVariant = 
+			[
+				"suburban_1_06"
+			];
+			mainColor = 
+			[
+				98, 62, 75
+			];
+			secondaryColor = 
+			[
+				68, 65, 66
+			];
+		} : VehicleColorTemplate, 
+		{
+			matchingAppearances = 
+			[
+				"villefort_cortes__basic_urban_1_01"
+			];
+			matchingColorVariant = 
+			[
+				"urban_1_01"
+			];
+			mainColor = 
+			[
+				94, 99, 92
+			];
+			secondaryColor = 
+			[
+				50, 49, 50
+			];
+		} : VehicleColorTemplate, 
+		"Vehicle.vcc_paintjob_villefort_cortes__basic_poor_1_06", "Vehicle.vcc_paintjob_villefort_cortes__basic_suburban_1_02", "Vehicle.vcc_paintjob_villefort_cortes__basic_suburban_1_03", "Vehicle.vcc_paintjob_villefort_cortes__basic_suburban_1_05", "Vehicle.vcc_paintjob_villefort_cortes__basic_suburban_1_07", "Vehicle.vcc_paintjob_villefort_cortes__basic_suburban_1_08", "Vehicle.vcc_paintjob_villefort_cortes__basic_urban_1_02", "Vehicle.vcc_paintjob_villefort_cortes__basic_urban_1_03", "Vehicle.vcc_paintjob_villefort_cortes__basic_urban_1_04", "Vehicle.vcc_paintjob_villefort_cortes__basic_urban_1_05"
 	];
 }
 
